@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>Feedback360 Request</name>
+    <style>none</style>
+    <subject>ACTION REQ&apos;D: Request for Feedback</subject>
+    <textOnly>Request for 360 Feedback
+Dear {!feedback360__c.Name__c},
+
+You have been selected by {!feedback360__c.EmployeeName__c} to participate in the Mcdonalds 360° Survey. The purpose of this survey is to provide feedback to managers or would-be managers who want to enhance their self-insight.
+
+Your feedback will help enable Takanori’s professional growth and development. Please be sure to answer all questions as honestly and as accurately as you can – your feedback will remain confidential. Other than for managers rating their direct reports, all feedback is aggregated in the feedback report. Your individual ratings and comments cannot be linked back to you.
+
+Please follow this link:
+https://sdo-demo-main-14efbacbf9c-15-154134ec0bc.secure.force.com/360feedback/DEM_InputFeedback?id={!feedback360__c.Id}
+
+The survey will close on next Friday. Please complete the survey before this date.</textOnly>
+    <type>custom</type>
+</EmailTemplate>

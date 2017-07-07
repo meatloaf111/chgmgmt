@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>クライアント交渉記録</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>クライアント交渉記録</value>
+    </caseValues>
+    <fields>
+        <label><!-- クライアント --></label>
+        <name>Account__c</name>
+        <relationshipLabel><!-- クライアント交渉記録 --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- 適用開始日 --></label>
+        <name>Apply_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- 直接雇用紹介率 --></label>
+        <name>Commision_Percent_Result__c</name>
+    </fields>
+    <fields>
+        <label><!-- 直接雇用紹介率 --></label>
+        <name>Commision_Percent__c</name>
+    </fields>
+    <fields>
+        <label><!-- 主な競合他者 --></label>
+        <name>Competitor__c</name>
+        <picklistValues>
+            <masterLabel>その他</masterLabel>
+            <translation><!-- その他 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>スタッフ・サービス</masterLabel>
+            <translation><!-- スタッフ・サービス --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>パソナ</masterLabel>
+            <translation><!-- パソナ --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>パーソル</masterLabel>
+            <translation><!-- パーソル --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>マンパワー</masterLabel>
+            <translation><!-- マンパワー --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ランスタッド</masterLabel>
+            <translation><!-- ランスタッド --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>リクルート</masterLabel>
+            <translation><!-- リクルート --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>不明</masterLabel>
+            <translation><!-- 不明 --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- 確定日 --></label>
+        <name>Complete_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- 除外 --></label>
+        <name>Exemption__c</name>
+        <picklistValues>
+            <masterLabel>本人都合</masterLabel>
+            <translation><!-- 本人都合 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>終了予定</masterLabel>
+            <translation><!-- 終了予定 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>終了済</masterLabel>
+            <translation><!-- 終了済 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>評価D</masterLabel>
+            <translation><!-- 評価D --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- 単価改定率 --></label>
+        <name>Fee_Change_Rate__c</name>
+    </fields>
+    <fields>
+        <label><!-- 確定単価 --></label>
+        <name>Labor_Fee_Fixed__c</name>
+    </fields>
+    <fields>
+        <label><!-- 交渉単価 --></label>
+        <name>Labor_Fee__c</name>
+    </fields>
+    <fields>
+        <label><!-- 付加価値型無期可能性 --></label>
+        <name>Possibility__c</name>
+        <picklistValues>
+            <masterLabel>ProE無期可能性あり</masterLabel>
+            <translation><!-- ProE無期可能性あり --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SVで勤務中</masterLabel>
+            <translation><!-- SVで勤務中 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>キャリアシード可能性あり</masterLabel>
+            <translation><!-- キャリアシード可能性あり --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>可能性なし</masterLabel>
+            <translation><!-- 可能性なし --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- 結果 --></label>
+        <name>Result__c</name>
+        <picklistValues>
+            <masterLabel>ProE無期変更</masterLabel>
+            <translation><!-- ProE無期変更 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SVで無期登用</masterLabel>
+            <translation><!-- SVで無期登用 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>アデコ都合撤退</masterLabel>
+            <translation><!-- アデコ都合撤退 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>キャリアシード変更</masterLabel>
+            <translation><!-- キャリアシード変更 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>企業都合終了</masterLabel>
+            <translation><!-- 企業都合終了 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>派遣単価改定</masterLabel>
+            <translation><!-- 派遣単価改定 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>直雇で紹介料</masterLabel>
+            <translation><!-- 直雇で紹介料 --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- スタッフ --></label>
+        <name>Staff__c</name>
+        <relationshipLabel><!-- クライアント交渉記録 --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- 交渉開始日 --></label>
+        <name>StartDate__c</name>
+    </fields>
+    <fields>
+        <label><!-- Status --></label>
+        <name>Status__c</name>
+        <picklistValues>
+            <masterLabel>アデコ検討中</masterLabel>
+            <translation><!-- アデコ検討中 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>交渉完了</masterLabel>
+            <translation><!-- 交渉完了 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>未着手</masterLabel>
+            <translation><!-- 未着手 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>顧客検討</masterLabel>
+            <translation><!-- 顧客検討 --></translation>
+        </picklistValues>
+    </fields>
+    <layouts>
+        <layout>クライアント交渉記録レイアウト</layout>
+        <sections>
+            <label><!-- カスタムリンク --></label>
+            <section>カスタムリンク</section>
+        </sections>
+        <sections>
+            <label><!-- 交渉内容 --></label>
+            <section>交渉内容</section>
+        </sections>
+        <sections>
+            <label><!-- 妥結内容 --></label>
+            <section>妥結内容</section>
+        </sections>
+        <sections>
+            <label><!-- 進捗状況 --></label>
+            <section>進捗状況</section>
+        </sections>
+    </layouts>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

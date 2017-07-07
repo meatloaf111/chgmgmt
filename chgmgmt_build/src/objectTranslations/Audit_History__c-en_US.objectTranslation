@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Audit_History</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Audit_Histories</value>
+    </caseValues>
+    <fields>
+        <label><!-- 商談 --></label>
+        <name>Opportunity__c</name>
+        <relationshipLabel><!-- Audit_Histories --></relationshipLabel>
+    </fields>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

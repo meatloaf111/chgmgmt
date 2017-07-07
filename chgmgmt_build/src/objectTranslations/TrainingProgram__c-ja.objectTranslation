@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>教育プログラム</value>
+    </caseValues>
+    <fields>
+        <label><!-- 区分 --></label>
+        <name>Category__c</name>
+        <picklistValues>
+            <masterLabel>オンライントレーニング</masterLabel>
+            <translation><!-- オンライントレーニング --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>店舗実地体験</masterLabel>
+            <translation><!-- 店舗実地体験 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>自己学習</masterLabel>
+            <translation><!-- 自己学習 --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- 期限日 --></label>
+        <name>End_Due_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- 資料保存先 --></label>
+        <name>Field1__c</name>
+    </fields>
+    <fields>
+        <label><!-- プログラム内容 --></label>
+        <name>ProgramContents__c</name>
+    </fields>
+    <fields>
+        <label><!-- 開始日 --></label>
+        <name>Start_Due_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- ターゲット --></label>
+        <name>Target__c</name>
+        <picklistValues>
+            <masterLabel>ディレクター以上</masterLabel>
+            <translation><!-- ディレクター以上 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>マネージャー以上</masterLabel>
+            <translation><!-- マネージャー以上 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>全従業員</masterLabel>
+            <translation><!-- 全従業員 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>新入社員</masterLabel>
+            <translation><!-- 新入社員 --></translation>
+        </picklistValues>
+    </fields>
+    <layouts>
+        <layout>教育プログラムレイアウト</layout>
+        <sections>
+            <label><!-- カスタムリンク --></label>
+            <section>カスタムリンク</section>
+        </sections>
+        <sections>
+            <label><!-- 内容 --></label>
+            <section>内容</section>
+        </sections>
+    </layouts>
+</CustomObjectTranslation>

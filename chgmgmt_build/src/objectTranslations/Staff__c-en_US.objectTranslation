@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>スタッフ</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>スタッフ</value>
+    </caseValues>
+    <fields>
+        <label><!-- クライアント名 --></label>
+        <name>Account__c</name>
+        <relationshipLabel><!-- スタッフ --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- 居住地 --></label>
+        <name>Adress__c</name>
+    </fields>
+    <fields>
+        <label><!-- 派遣元部署名 --></label>
+        <name>Department__c</name>
+    </fields>
+    <fields>
+        <label><!-- 請求単価 --></label>
+        <name>Labor_Fee_Billed__c</name>
+    </fields>
+    <fields>
+        <label><!-- 氏名 --></label>
+        <name>Name__c</name>
+    </fields>
+    <fields>
+        <label><!-- 対応区分 --></label>
+        <name>TaioKubun__c</name>
+        <picklistValues>
+            <masterLabel>A</masterLabel>
+            <translation><!-- A --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>B</masterLabel>
+            <translation><!-- B --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>C1</masterLabel>
+            <translation><!-- C1 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>C2</masterLabel>
+            <translation><!-- C2 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>D</masterLabel>
+            <translation><!-- D --></translation>
+        </picklistValues>
+    </fields>
+    <layouts>
+        <layout>スタッフレイアウト</layout>
+        <sections>
+            <label><!-- カスタムリンク --></label>
+            <section>カスタムリンク</section>
+        </sections>
+    </layouts>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>面接</value>
+    </caseValues>
+    <fields>
+        <label><!-- 応募 --></label>
+        <name>Application__c</name>
+        <relationshipLabel><!-- 面接 --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- 面接官1 --></label>
+        <name>Field1__c</name>
+        <relationshipLabel><!-- 面接 --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- 面接官３ --></label>
+        <name>Interviewer3__c</name>
+        <relationshipLabel><!-- 面接 --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- 予定日時 --></label>
+        <name>PlanStartTime__c</name>
+    </fields>
+    <fields>
+        <label><!-- 実施日時 --></label>
+        <name>StartDate__c</name>
+    </fields>
+    <fields>
+        <label><!-- ステータス --></label>
+        <name>Status__c</name>
+        <picklistValues>
+            <masterLabel>キャンセル</masterLabel>
+            <translation><!-- キャンセル --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>不合格</masterLabel>
+            <translation><!-- 不合格 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>合格</masterLabel>
+            <translation><!-- 合格 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>実施待ち</masterLabel>
+            <translation><!-- 実施待ち --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>日程調整中</masterLabel>
+            <translation><!-- 日程調整中 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>辞退</masterLabel>
+            <translation><!-- 辞退 --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- 会場 --></label>
+        <name>Venue__c</name>
+        <picklistValues>
+            <masterLabel>Aホール</masterLabel>
+            <translation><!-- Aホール --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Bホール</masterLabel>
+            <translation><!-- Bホール --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>シンフォニービル</masterLabel>
+            <translation><!-- シンフォニービル --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>本社</masterLabel>
+            <translation><!-- 本社 --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- assessid --></label>
+        <name>assessid__c</name>
+    </fields>
+    <fields>
+        <label><!-- 面接官2 --></label>
+        <name>mensetu2__c</name>
+        <relationshipLabel><!-- 面接 (面接官2) --></relationshipLabel>
+    </fields>
+    <webLinks>
+        <label><!-- CustomLink2 --></label>
+        <name>CustomLink2</name>
+    </webLinks>
+</CustomObjectTranslation>

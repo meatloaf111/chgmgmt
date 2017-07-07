@@ -1,0 +1,296 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>組織</value>
+    </caseValues>
+    <fields>
+        <label><!-- 組織有効開始日 --></label>
+        <name>Field10__c</name>
+    </fields>
+    <fields>
+        <label><!-- 組織有効終了日 --></label>
+        <name>Field11__c</name>
+    </fields>
+    <fields>
+        <label><!-- 県コード --></label>
+        <name>Field12__c</name>
+    </fields>
+    <fields>
+        <label><!-- 市区町村コード --></label>
+        <name>Field13__c</name>
+    </fields>
+    <fields>
+        <label><!-- 郵便番号 --></label>
+        <name>Field14__c</name>
+    </fields>
+    <fields>
+        <label><!-- 都道府県名（漢字） --></label>
+        <name>Field15__c</name>
+    </fields>
+    <fields>
+        <label><!-- 都道府県名（カナ） --></label>
+        <name>Field16__c</name>
+    </fields>
+    <fields>
+        <label><!-- 市区町村名（漢字） --></label>
+        <name>Field17__c</name>
+    </fields>
+    <fields>
+        <label><!-- 市区町村名（カナ） --></label>
+        <name>Field18__c</name>
+    </fields>
+    <fields>
+        <label><!-- 番地（漢字） --></label>
+        <name>Field19__c</name>
+    </fields>
+    <fields>
+        <label><!-- 組織階層タイプID --></label>
+        <name>Field1__c</name>
+    </fields>
+    <fields>
+        <label><!-- 番地（カナ） --></label>
+        <name>Field20__c</name>
+    </fields>
+    <fields>
+        <label><!-- 建物名（漢字） --></label>
+        <name>Field21__c</name>
+    </fields>
+    <fields>
+        <label><!-- 建物名(カナ） --></label>
+        <name>Field22__c</name>
+    </fields>
+    <fields>
+        <label><!-- 削除フラグ --></label>
+        <name>Field23__c</name>
+    </fields>
+    <fields>
+        <label><!-- 備考 --></label>
+        <name>Field24__c</name>
+    </fields>
+    <fields>
+        <label><!-- 組織名１（漢字） --></label>
+        <name>Field25__c</name>
+    </fields>
+    <fields>
+        <label><!-- 組織名１（英語） --></label>
+        <name>Field26__c</name>
+    </fields>
+    <fields>
+        <label><!-- 組織名２（漢字） --></label>
+        <name>Field27__c</name>
+    </fields>
+    <fields>
+        <label><!-- 組織名２（英語） --></label>
+        <name>Field28__c</name>
+    </fields>
+    <fields>
+        <label><!-- 組織名３（漢字） --></label>
+        <name>Field29__c</name>
+    </fields>
+    <fields>
+        <label><!-- 階層レベル --></label>
+        <name>Field2__c</name>
+    </fields>
+    <fields>
+        <label><!-- 組織名３（英語） --></label>
+        <name>Field30__c</name>
+    </fields>
+    <fields>
+        <label><!-- 組織名称（漢字） --></label>
+        <name>Field3__c</name>
+    </fields>
+    <fields>
+        <label><!-- 組織名称（カナ） --></label>
+        <name>Field4__c</name>
+    </fields>
+    <fields>
+        <label><!-- 組織名称（英字） --></label>
+        <name>Field5__c</name>
+    </fields>
+    <fields>
+        <label><!-- 組織略称（漢字） --></label>
+        <name>Field6__c</name>
+    </fields>
+    <fields>
+        <label><!-- 組織略称（英字） --></label>
+        <name>Field7__c</name>
+    </fields>
+    <fields>
+        <label><!-- データ有効開始日 --></label>
+        <name>Field8__c</name>
+    </fields>
+    <fields>
+        <label><!-- データ有効終了日 --></label>
+        <name>Field9__c</name>
+    </fields>
+    <fields>
+        <label><!-- 組織ID10 --></label>
+        <name>OrgID10__c</name>
+    </fields>
+    <fields>
+        <label><!-- 組織ID11 --></label>
+        <name>OrgID11__c</name>
+    </fields>
+    <fields>
+        <label><!-- 組織ID12 --></label>
+        <name>OrgID12__c</name>
+    </fields>
+    <fields>
+        <label><!-- 組織ID13 --></label>
+        <name>OrgID13__c</name>
+    </fields>
+    <fields>
+        <label><!-- 組織ID14 --></label>
+        <name>OrgID14__c</name>
+    </fields>
+    <fields>
+        <label><!-- 組織ID15 --></label>
+        <name>OrgID15__c</name>
+    </fields>
+    <fields>
+        <label><!-- 組織ID16 --></label>
+        <name>OrgID16__c</name>
+    </fields>
+    <fields>
+        <label><!-- 組織ID17 --></label>
+        <name>OrgID17__c</name>
+    </fields>
+    <fields>
+        <label><!-- 組織ID18 --></label>
+        <name>OrgID18__c</name>
+    </fields>
+    <fields>
+        <label><!-- 組織ID19 --></label>
+        <name>OrgID19__c</name>
+    </fields>
+    <fields>
+        <label><!-- 組織ID1 --></label>
+        <name>OrgID1__c</name>
+    </fields>
+    <fields>
+        <label><!-- 組織ID20 --></label>
+        <name>OrgID20__c</name>
+    </fields>
+    <fields>
+        <label><!-- 組織ID2 --></label>
+        <name>OrgID2__c</name>
+    </fields>
+    <fields>
+        <label><!-- 組織ID3 --></label>
+        <name>OrgID3__c</name>
+    </fields>
+    <fields>
+        <label><!-- 組織ID4 --></label>
+        <name>OrgID4__c</name>
+    </fields>
+    <fields>
+        <label><!-- 組織ID5 --></label>
+        <name>OrgID5__c</name>
+    </fields>
+    <fields>
+        <label><!-- 組織ID6 --></label>
+        <name>OrgID6__c</name>
+    </fields>
+    <fields>
+        <label><!-- 組織ID7 --></label>
+        <name>OrgID7__c</name>
+    </fields>
+    <fields>
+        <label><!-- 組織ID8 --></label>
+        <name>OrgID8__c</name>
+    </fields>
+    <fields>
+        <label><!-- 組織ID9 --></label>
+        <name>OrgID9__c</name>
+    </fields>
+    <fields>
+        <label><!-- 組織タイプID10 --></label>
+        <name>OrgTypeID10__c</name>
+    </fields>
+    <fields>
+        <label><!-- 組織タイプID11 --></label>
+        <name>OrgTypeID11__c</name>
+    </fields>
+    <fields>
+        <label><!-- 組織タイプID12 --></label>
+        <name>OrgTypeID12__c</name>
+    </fields>
+    <fields>
+        <label><!-- 組織タイプID13 --></label>
+        <name>OrgTypeID13__c</name>
+    </fields>
+    <fields>
+        <label><!-- 組織タイプID14 --></label>
+        <name>OrgTypeID14__c</name>
+    </fields>
+    <fields>
+        <label><!-- 組織タイプID15 --></label>
+        <name>OrgTypeID15__c</name>
+    </fields>
+    <fields>
+        <label><!-- 組織タイプID16 --></label>
+        <name>OrgTypeID16__c</name>
+    </fields>
+    <fields>
+        <label><!-- 組織タイプID17 --></label>
+        <name>OrgTypeID17__c</name>
+    </fields>
+    <fields>
+        <label><!-- 組織タイプID18 --></label>
+        <name>OrgTypeID18__c</name>
+    </fields>
+    <fields>
+        <label><!-- 組織タイプID19 --></label>
+        <name>OrgTypeID19__c</name>
+    </fields>
+    <fields>
+        <label><!-- 組織タイプID1 --></label>
+        <name>OrgTypeID1__c</name>
+    </fields>
+    <fields>
+        <label><!-- 組織タイプID20 --></label>
+        <name>OrgTypeID20__c</name>
+    </fields>
+    <fields>
+        <label><!-- 組織タイプID2 --></label>
+        <name>OrgTypeID2__c</name>
+    </fields>
+    <fields>
+        <label><!-- 組織タイプID3 --></label>
+        <name>OrgTypeID3__c</name>
+    </fields>
+    <fields>
+        <label><!-- 組織タイプID4 --></label>
+        <name>OrgTypeID4__c</name>
+    </fields>
+    <fields>
+        <label><!-- 組織タイプID5 --></label>
+        <name>OrgTypeID5__c</name>
+    </fields>
+    <fields>
+        <label><!-- 組織タイプID6 --></label>
+        <name>OrgTypeID6__c</name>
+    </fields>
+    <fields>
+        <label><!-- 組織タイプID7 --></label>
+        <name>OrgTypeID7__c</name>
+    </fields>
+    <fields>
+        <label><!-- 組織タイプID8 --></label>
+        <name>OrgTypeID8__c</name>
+    </fields>
+    <fields>
+        <label><!-- 組織タイプID9 --></label>
+        <name>OrgTypeID9__c</name>
+    </fields>
+    <fields>
+        <label><!-- 組織タイプID --></label>
+        <name>OrgTypeId__c</name>
+    </fields>
+    <fields>
+        <label><!-- 親組織 --></label>
+        <name>ParentOrg__c</name>
+        <relationshipLabel><!-- 組織 --></relationshipLabel>
+    </fields>
+</CustomObjectTranslation>

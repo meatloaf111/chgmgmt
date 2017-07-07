@@ -1,0 +1,25 @@
+<apex:page standardController="Account">
+    <apex:form >
+<apex:pageBlock mode="maindetail" title="Account Edit">
+        <apex:pageBlockButtons >
+           <apex:commandButton value="Cancel" action="{!cancel}"/>
+           <apex:commandButton value="Save" action="{!save}"/>
+        </apex:pageBlockButtons>
+        <apex:pageBlockSection title="General">
+           <apex:repeat value="{!$ObjectType.Account.FieldSets.General}" 
+                    var="field">
+              <apex:inputField value="{!Account[field]}" />
+           </apex:repeat>
+        </apex:pageBlockSection>
+        <apex:pageBlockSection title="Address">
+           <apex:repeat value="{!$ObjectType.Account.FieldSets.Address}" 
+                    var="field">
+              <apex:inputField value="{!Account[field]}" />
+           </apex:repeat>
+        </apex:pageBlockSection>
+        <apex:pageBlockSection title="Bar Chart">
+    <div id="barchart" style="width: 450px; height: 25px;"></div>
+ </apex:pageBlockSection>
+     </apex:pageBlock>
+        </apex:form>
+ </apex:page>

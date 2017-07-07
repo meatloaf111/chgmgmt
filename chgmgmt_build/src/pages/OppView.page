@@ -1,0 +1,12 @@
+<apex:page sidebar="false" standardController="Opportunity">
+    <apex:pageblock title="Opportunity">
+    	<apex:pageblockSection >
+            <apex:outputField value="{! Opportunity.Name}"/>
+             <apex:outputField value="{! Opportunity.Amount}"/>
+            <apex:outputField value="{! Opportunity.CloseDate}"/>
+            <apex:outputField value="{! Opportunity.Account.Name}"/>
+        
+        </apex:pageblockSection>
+    
+    </apex:pageblock>
+</apex:page>

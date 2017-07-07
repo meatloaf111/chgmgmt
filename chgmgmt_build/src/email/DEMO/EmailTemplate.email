@@ -1,0 +1,14 @@
+<table border="0" cellpadding="5" width="600" cellspacing="5" height="400" >
+<tr valign="top" height="50" >
+<td tEditID="c1r1" style=" background-color:#FFFFFF; color:#000000; bEditID:r3st1; bLabel:main; font-size:12pt; font-family:arial;" aEditID="c1r1" locked="0" >
+<![CDATA[<font color="#ff6600" style="background-color: rgb(255, 255, 255);">Individual Performance Plan（{!PDS__c.Name}）が提出されました。</font>]]></td>
+</tr>
+<tr valign="top" height="300" >
+<td tEditID="c1r2" style=" background-color:#FFFFFF; color:#000000; bEditID:r3st1; bLabel:main; font-size:12pt; font-family:arial;" aEditID="c1r2" locked="0" >
+<![CDATA[<div style="color: rgb(0, 0, 0);"><br></div><div style="color: rgb(0, 0, 0);">あなた宛に、部下の方からIndividual Performance Planが</div><div style="color: rgb(0, 0, 0);">提出されました。</div><div style="color: rgb(0, 0, 0);"><br></div><div style="color: rgb(0, 0, 0);">内容を確認し、承認または却下（修正依頼）をお願い致します。</div><div style="color: rgb(0, 0, 0);"><br></div><div style="color: rgb(0, 0, 0);"><br></div><div>※当業務については、<font color="#3366ff"><u>PDSプレイブック</u></font>をご参照ください。</div>]]></td>
+</tr>
+<tr valign="top" height="50" >
+<td tEditID="c1r3" style=" background-color:#FFFFFF; color:#000000; bEditID:r3st1; bLabel:main; font-size:12pt; font-family:arial;" aEditID="c1r3" locked="0" >
+<![CDATA[<font size="2" color="#666666">HR本部</font><div><font size="2" color="#666666">（担当：人事 太郎　内線1324455）</font></div>]]></td>
+</tr>
+</table>

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>ポートフォリオ</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>ポートフォリオ</value>
+    </caseValues>
+    <fields>
+        <label><!-- 残高 --></label>
+        <name>Outstanding_Amount__c</name>
+    </fields>
+    <fields>
+        <label><!-- 取引先 --></label>
+        <name>Portfolio__c</name>
+        <relationshipLabel><!-- ポートフォリオ --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- 商品タイプ --></label>
+        <name>Prod_Type__c</name>
+        <picklistValues>
+            <masterLabel>Forex</masterLabel>
+            <translation><!-- Forex --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>エクイティ</masterLabel>
+            <translation><!-- エクイティ --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>デリバティブ</masterLabel>
+            <translation><!-- デリバティブ --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- 商品タイプ --></label>
+        <name>Prod_type_lookup__c</name>
+        <relationshipLabel><!-- ポートフォリオ --></relationshipLabel>
+    </fields>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

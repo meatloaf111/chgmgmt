@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Workflow xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fieldUpdates>
+        <fullName>SetTypeToCustomer</fullName>
+        <field>Type</field>
+        <literalValue>Customer</literalValue>
+        <name>SetTypeToCustomer</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>SetTypeToPending</fullName>
+        <field>Type</field>
+        <literalValue>Pending</literalValue>
+        <name>SetTypeToPending</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>SetTypeToProspect</fullName>
+        <field>Type</field>
+        <literalValue>Prospect</literalValue>
+        <name>SetTypeToProspect</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+    </fieldUpdates>
+</Workflow>

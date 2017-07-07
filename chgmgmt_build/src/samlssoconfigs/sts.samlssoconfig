@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SamlSsoConfig xmlns="http://soap.sforce.com/2006/04/metadata">
+    <identityLocation>SubjectNameId</identityLocation>
+    <identityMapping>Username</identityMapping>
+    <issuer>http://sts.adeccotest.com/adfs/services/trust</issuer>
+    <loginUrl>https://sts.adeccotest.com/adfs/ls/</loginUrl>
+    <name>sts</name>
+    <oauthTokenEndpoint>https://adcompany-dev-ed.my.salesforce.com/services/oauth2/token?so=00D28000001f0q0</oauthTokenEndpoint>
+    <redirectBinding>true</redirectBinding>
+    <requestSignatureMethod>0</requestSignatureMethod>
+    <salesforceLoginUrl>https://adcompany-dev-ed.my.salesforce.com?so=00D28000001f0q0</salesforceLoginUrl>
+    <samlEntityId>https://adcompany-dev-ed.my.salesforce.com</samlEntityId>
+    <samlVersion>SAML2_0</samlVersion>
+    <userProvisioning>false</userProvisioning>
+    <validationCert>MIIC4DCCAcigAwIBAgIQUWu7HjPKqYVFZ2AK+N9RvDANBgkqhkiG9w0BAQsFADAsMSowKAYDVQQDEyFBREZTIFNpZ25pbmcgLSBzdHMuYWRlY2NvdGVzdC5jb20wHhcNMTQwNzA3MTExNTEzWhcNMjQwNzA0MTExNTEzWjAsMSowKAYDVQQDEyFBREZTIFNpZ25pbmcgLSBzdHMuYWRlY2NvdGVzdC5jb20wggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQCN3d4gO8YRLNfXNhMpGFtyPYkY2cjXHJ9qSURNkMINgTTpWQhWqaXSkrrIqgkdubSUeideyvKQrhnTjJJRTulKHxOSOVFzPvBSOSkbveOZfhpOWeKbHpQHkJzOkQ++rsfMuos1tmWYIaBXzr/+Oiagxv3S3mWmdarlRjkGT1lAQCx74GDYXFlGHp1zp5dnWjtbF4MpydPPWPDbtIubwmlwPkK+iax+enZitO5g6ROJKcInEZtsygReglOfaX0nR1nIErCssrZWv1dZxDmHs8fLnn+3yLUluV8txQwEQzMjrapCpOVJlvN6KeErnQ7H1lZAhNDp2N4qDx0+vE30Ghl/AgMBAAEwDQYJKoZIhvcNAQELBQADggEBAFAd4XuQRUf/K9YN2RipYxmgM6VqPTNUmPV1Bl5Cw/5ghKRBT5Ns14rxqkWHB7fMiunwy5wC8ZnI5xz2JIBpwUeMB+jsArCYW71nHJm/1HPz0moquXH74EfmZFzlwof/3fQEtktsTI+jQvQ2qVdS+1lLEk0G7s2hy1tPyv7DEh5iMp8+vm3cpgDNNZcEFhqLTidt42RDxe7Ao0G1EFNa4BFwX8uW6aMGLdLzUkU4TRSU7A9jAlSLdd2M0HieGvGlrvsFHo+uem77ncvKZ71L0jM3KpwDM5LTnjID5nr228NT1xbeHGU31hw2HPgezK2A1kmXTq2OYlSJbvenksLLhpY=</validationCert>
+</SamlSsoConfig>

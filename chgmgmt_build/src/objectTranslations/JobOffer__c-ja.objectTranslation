@@ -1,0 +1,258 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>募集</value>
+    </caseValues>
+    <fields>
+        <label><!-- 募集終了 --></label>
+        <name>ApplicantsCompleted__c</name>
+    </fields>
+    <fields>
+        <label><!-- 承認ステータス --></label>
+        <name>ApprovalStatus__c</name>
+        <picklistValues>
+            <masterLabel>承認済</masterLabel>
+            <translation><!-- 承認済 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>未承認</masterLabel>
+            <translation><!-- 未承認 --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help><!-- 募集職位がディレクターおよび上位の場合選択が必要 --></help>
+        <label><!-- CEO --></label>
+        <name>CEO_approval__c</name>
+        <relationshipLabel><!-- 募集 (CEO) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- コメント(募集人数以内でない場合) --></label>
+        <name>Comment_1__c</name>
+    </fields>
+    <fields>
+        <label><!-- コメント(給与レンジ内でない場合) --></label>
+        <name>Comment_2__c</name>
+    </fields>
+    <fields>
+        <label><!-- 現在の該当従業員 --></label>
+        <name>Current_Job_Holder__c</name>
+        <relationshipLabel><!-- 募集 (現在の該当従業員) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- 採用エージェンシーへの公開 --></label>
+        <name>Disclose_to_Agency__c</name>
+        <picklistValues>
+            <masterLabel>公開</masterLabel>
+            <translation><!-- 公開 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>非公開</masterLabel>
+            <translation><!-- 非公開 --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- 組織 --></label>
+        <name>Dvision_Department__c</name>
+        <relationshipLabel><!-- 募集 --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- 雇用タイプ --></label>
+        <name>Employment_Type__c</name>
+        <picklistValues>
+            <masterLabel>Permanent Full time</masterLabel>
+            <translation><!-- Permanent Full time --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Permanent Part time</masterLabel>
+            <translation><!-- Permanent Part time --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Temporary Full time</masterLabel>
+            <translation><!-- Temporary Full time --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- 終了日 --></label>
+        <name>EndDate__c</name>
+    </fields>
+    <fields>
+        <help><!-- 人事本部に相談ください --></help>
+        <label><!-- 想定給与額 --></label>
+        <name>Estimated_Salary__c</name>
+    </fields>
+    <fields>
+        <label><!-- 入社希望日 --></label>
+        <name>Field2__c</name>
+    </fields>
+    <fields>
+        <label><!-- ステータス --></label>
+        <name>Field3__c</name>
+        <picklistValues>
+            <masterLabel>依頼済</masterLabel>
+            <translation><!-- 依頼済 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>募集中</masterLabel>
+            <translation><!-- 募集中 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>募集完了</masterLabel>
+            <translation><!-- 募集完了 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>準備中</masterLabel>
+            <translation><!-- 準備中 --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help><!-- ディレクターおよびその上位の職位の募集の場合、CEOの最終面接が必須 --></help>
+        <label><!-- 最終面接者 --></label>
+        <name>Final_decision__c</name>
+        <relationshipLabel><!-- 募集 (最終面接者) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- 人事本部担当者 --></label>
+        <name>HR_Review__c</name>
+        <relationshipLabel><!-- 募集 (人事本部担当者) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- 人事本部担当VP --></label>
+        <name>HR_VP_Approval__c</name>
+        <relationshipLabel><!-- 募集 (人事本部担当VP) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- 1次面接者 --></label>
+        <name>Interviewer_1st__c</name>
+        <relationshipLabel><!-- 募集 (1次面接者) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- 2次面接者 --></label>
+        <name>Interviewer_2nd__c</name>
+        <relationshipLabel><!-- 募集 (2次面接者) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- 3次面接者 --></label>
+        <name>Interviewer_3rd__c</name>
+        <relationshipLabel><!-- 募集 (3次面接者) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- ジョブプロファイル --></label>
+        <name>JobProfile__c</name>
+        <relationshipLabel><!-- 募集 --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- メインリード --></label>
+        <name>MainLead__c</name>
+    </fields>
+    <fields>
+        <label><!-- 募集範囲 --></label>
+        <name>OpenRange__c</name>
+        <picklistValues>
+            <masterLabel>内部のみ</masterLabel>
+            <translation><!-- 内部のみ --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>外部のみ</masterLabel>
+            <translation><!-- 外部のみ --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>外部・内部</masterLabel>
+            <translation><!-- 外部・内部 --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- 募集タイトル --></label>
+        <name>Position_Title__c</name>
+    </fields>
+    <fields>
+        <label><!-- 募集理由 --></label>
+        <name>Reason_for_Hire__c</name>
+        <picklistValues>
+            <masterLabel>Backfill</masterLabel>
+            <translation><!-- Backfill --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Incremental</masterLabel>
+            <translation><!-- Incremental --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Temp to Perm</masterLabel>
+            <translation><!-- Temp to Perm --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- 採用担当者 --></label>
+        <name>Recruiter__c</name>
+        <relationshipLabel><!-- 募集 --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- 募集開始日 --></label>
+        <name>Recruiting_start_day__c</name>
+    </fields>
+    <fields>
+        <label><!-- 担当者 --></label>
+        <name>Rep__c</name>
+        <relationshipLabel><!-- 募集 --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- 直属上司(職位) --></label>
+        <name>Report_to_Title__c</name>
+    </fields>
+    <fields>
+        <label><!-- 募集人数 --></label>
+        <name>ReqPersons__c</name>
+    </fields>
+    <fields>
+        <label><!-- 依頼日 --></label>
+        <name>RequestDate__c</name>
+    </fields>
+    <fields>
+        <help><!-- 該当する場合は選択 --></help>
+        <label><!-- 担当SVP --></label>
+        <name>SVP__c</name>
+        <relationshipLabel><!-- 募集 (シニアバイスプレジデント) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- 給与レンジ内か --></label>
+        <name>Salary_Range__c</name>
+    </fields>
+    <fields>
+        <label><!-- 開始日 --></label>
+        <name>StartDate__c</name>
+    </fields>
+    <fields>
+        <label><!-- サブリード --></label>
+        <name>SubLead__c</name>
+    </fields>
+    <fields>
+        <label><!-- 承認済の募集人数内か --></label>
+        <name>Within_HC__c</name>
+    </fields>
+    <layouts>
+        <layout>募集レイアウト</layout>
+        <sections>
+            <label><!-- カスタムリンク --></label>
+            <section>カスタムリンク</section>
+        </sections>
+        <sections>
+            <label><!-- 人事本部レビュー&amp;確認欄 --></label>
+            <section>人事本部レビュー&amp;確認欄</section>
+        </sections>
+        <sections>
+            <label><!-- 採用担当者入力欄 --></label>
+            <section>採用担当者入力欄</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>募集レイアウト(採用エージェンシー向け)</layout>
+        <sections>
+            <label><!-- カスタムリンク --></label>
+            <section>カスタムリンク</section>
+        </sections>
+        <sections>
+            <label><!-- 採用担当者入力欄 --></label>
+            <section>採用担当者入力欄</section>
+        </sections>
+    </layouts>
+</CustomObjectTranslation>

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <label><!-- ステータス --></label>
+        <name>ogg__ActivityStatus__c</name>
+    </fields>
+    <fields>
+        <help>Finish latitude used by UPWARD</help>
+        <label><!-- 活動終了緯度 --></label>
+        <name>ogg__FinishLatitude__c</name>
+    </fields>
+    <fields>
+        <help>Finish longitude used by UPWARD</help>
+        <label><!-- 活動終了経度 --></label>
+        <name>ogg__FinishLongitude__c</name>
+    </fields>
+    <fields>
+        <label><!-- 活動終了日時 --></label>
+        <name>ogg__FinishTime__c</name>
+    </fields>
+    <fields>
+        <help>Start latitude used by UPWARD</help>
+        <label><!-- 活動開始緯度 --></label>
+        <name>ogg__StartLatitude__c</name>
+    </fields>
+    <fields>
+        <help>Start longitude used by UPWARD</help>
+        <label><!-- 活動開始経度 --></label>
+        <name>ogg__StartLongitude__c</name>
+    </fields>
+    <fields>
+        <label><!-- 活動開始日時 --></label>
+        <name>ogg__StartTime__c</name>
+    </fields>
+    <fields>
+        <label><!-- 実施場所（緯度） --></label>
+        <name>ogg__WorkLatitude__c</name>
+    </fields>
+    <fields>
+        <label><!-- 実施場所（経度） --></label>
+        <name>ogg__WorkLongitude__c</name>
+    </fields>
+</CustomObjectTranslation>

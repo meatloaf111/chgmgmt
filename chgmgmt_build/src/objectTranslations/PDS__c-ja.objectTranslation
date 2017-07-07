@@ -1,0 +1,1160 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>業績目標／パフォーマンス評価</value>
+    </caseValues>
+    <fields>
+        <label><!-- 部門 --></label>
+        <name>Department__c</name>
+        <picklistValues>
+            <masterLabel>CSR部</masterLabel>
+            <translation><!-- CSR部 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ナショナルマーケティング部</masterLabel>
+            <translation><!-- ナショナルマーケティング部 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ピープルディベロップメント部</masterLabel>
+            <translation><!-- ピープルディベロップメント部 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>プロモーションサプライ部</masterLabel>
+            <translation><!-- プロモーションサプライ部 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>リージョナルコントローラー部</masterLabel>
+            <translation><!-- リージョナルコントローラー部 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>店舗開発部</masterLabel>
+            <translation><!-- 店舗開発部 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>直営店舗</masterLabel>
+            <translation><!-- 直営店舗 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>設計管理部</masterLabel>
+            <translation><!-- 設計管理部 --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- 画像大 --></label>
+        <name>DispImageLarge__c</name>
+    </fields>
+    <fields>
+        <label><!-- 画像 --></label>
+        <name>DispImage__c</name>
+    </fields>
+    <fields>
+        <label><!-- 本部 --></label>
+        <name>Division__c</name>
+        <picklistValues>
+            <masterLabel>コーポレートリレーション本部</masterLabel>
+            <translation><!-- コーポレートリレーション本部 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>サプライチェーン本部</masterLabel>
+            <translation><!-- サプライチェーン本部 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ドナルド・マクドナルド・ハウス</masterLabel>
+            <translation><!-- ドナルド・マクドナルド・ハウス --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>マーケティング本部</masterLabel>
+            <translation><!-- マーケティング本部 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>人事本部</masterLabel>
+            <translation><!-- 人事本部 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>店舗開発本部</masterLabel>
+            <translation><!-- 店舗開発本部 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>東日本　営業推進部</masterLabel>
+            <translation><!-- 東日本　営業推進部 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>直営店舗</masterLabel>
+            <translation><!-- 直営店舗 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>財務本部</masterLabel>
+            <translation><!-- 財務本部 --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- 従業員氏名 --></label>
+        <name>EmployeeFullName__c</name>
+    </fields>
+    <fields>
+        <label><!-- 従業員番号 --></label>
+        <name>Employee__c</name>
+        <relationshipLabel><!-- 業績目標／パフォーマンス評価 --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- 評価確定 --></label>
+        <name>EvaluationConfirmed__c</name>
+    </fields>
+    <fields>
+        <label><!-- 成功の測定評価方法１ --></label>
+        <name>Field10__c</name>
+    </fields>
+    <fields>
+        <label><!-- 成功の測定評価方法２ --></label>
+        <name>Field11__c</name>
+    </fields>
+    <fields>
+        <label><!-- 成功の測定評価方法３ --></label>
+        <name>Field12__c</name>
+    </fields>
+    <fields>
+        <label><!-- 達成予定日１ --></label>
+        <name>Field13__c</name>
+    </fields>
+    <fields>
+        <label><!-- 達成予定日２ --></label>
+        <name>Field14__c</name>
+    </fields>
+    <fields>
+        <label><!-- 達成予定日３ --></label>
+        <name>Field15__c</name>
+    </fields>
+    <fields>
+        <label><!-- 目標達成のために活用できる強み --></label>
+        <name>Field16__c</name>
+    </fields>
+    <fields>
+        <help><!-- 自身のキャリアにおいて目指している事や興味を持っている事 --></help>
+        <label><!-- 短期目標／興味（１−２年） --></label>
+        <name>Field17__c</name>
+    </fields>
+    <fields>
+        <help><!-- 自身のキャリアにおいて目指している事や興味を持っている事 --></help>
+        <label><!-- 短期目標／興味（２年以上） --></label>
+        <name>Field18__c</name>
+    </fields>
+    <fields>
+        <label><!-- お客様へ最善を尽くす --></label>
+        <name>Field19__c</name>
+    </fields>
+    <fields>
+        <label><!-- 社員氏名 --></label>
+        <name>Field1__c</name>
+        <relationshipLabel><!-- 業績目標／パフォーマンス評価 (社員氏名) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- タレントを成長させ、活躍の機会を作る --></label>
+        <name>Field20__c</name>
+    </fields>
+    <fields>
+        <label><!-- チームワークで目的を達成する --></label>
+        <name>Field21__c</name>
+    </fields>
+    <fields>
+        <label><!-- 影響力で相手をリードする --></label>
+        <name>Field22__c</name>
+    </fields>
+    <fields>
+        <label><!-- 最も重要なことに集中する --></label>
+        <name>Field23__c</name>
+    </fields>
+    <fields>
+        <label><!-- 効果的、率直にコミュニケーションする --></label>
+        <name>Field24__c</name>
+    </fields>
+    <fields>
+        <label><!-- 戦略的に計画・実践する --></label>
+        <name>Field25__c</name>
+    </fields>
+    <fields>
+        <label><!-- 変革と革新をリードする --></label>
+        <name>Field26__c</name>
+    </fields>
+    <fields>
+        <label><!-- 自己成長の目標１ --></label>
+        <name>Field27__c</name>
+    </fields>
+    <fields>
+        <label><!-- 自己成長の目標２ --></label>
+        <name>Field28__c</name>
+    </fields>
+    <fields>
+        <label><!-- 自己成長の目標３ --></label>
+        <name>Field29__c</name>
+    </fields>
+    <fields>
+        <label><!-- 職位 --></label>
+        <name>Field2__c</name>
+        <picklistValues>
+            <masterLabel>シニアマネージャ</masterLabel>
+            <translation><!-- シニアマネージャ --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>スタッフ</masterLabel>
+            <translation><!-- スタッフ --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>マネージャ</masterLabel>
+            <translation><!-- マネージャ --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- 成功の測定評価方法１ --></label>
+        <name>Field30__c</name>
+    </fields>
+    <fields>
+        <label><!-- 成功の測定評価方法２ --></label>
+        <name>Field31__c</name>
+    </fields>
+    <fields>
+        <label><!-- 成功の測定評価方法３ --></label>
+        <name>Field32__c</name>
+    </fields>
+    <fields>
+        <label><!-- 達成予定日 --></label>
+        <name>Field33__c</name>
+    </fields>
+    <fields>
+        <label><!-- 達成予定日２ --></label>
+        <name>Field34__c</name>
+    </fields>
+    <fields>
+        <label><!-- 達成予定日３ --></label>
+        <name>Field35__c</name>
+    </fields>
+    <fields>
+        <label><!-- ステータス --></label>
+        <name>Field36__c</name>
+        <picklistValues>
+            <masterLabel>ラウンドテーブル済</masterLabel>
+            <translation><!-- ラウンドテーブル済 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>上司評価済</masterLabel>
+            <translation><!-- 上司評価済 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>最終確定済</masterLabel>
+            <translation><!-- 最終確定済 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>目標承認済</masterLabel>
+            <translation><!-- 目標承認済 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>目標未承認</masterLabel>
+            <translation><!-- 目標未承認 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>自己評価済</masterLabel>
+            <translation><!-- 自己評価済 --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- 達成事項 --></label>
+        <name>Field37__c</name>
+    </fields>
+    <fields>
+        <label><!-- 私の強み --></label>
+        <name>Field38__c</name>
+    </fields>
+    <fields>
+        <label><!-- 強み（上司が記入） --></label>
+        <name>Field39__c</name>
+    </fields>
+    <fields>
+        <label><!-- 地域／部署 --></label>
+        <name>Field3__c</name>
+    </fields>
+    <fields>
+        <label><!-- 私の成長における機会点 --></label>
+        <name>Field40__c</name>
+    </fields>
+    <fields>
+        <label><!-- 成長における機会点（上司が記入） --></label>
+        <name>Field41__c</name>
+    </fields>
+    <fields>
+        <label><!-- 社員に関わりのある他社によるフィードバック --></label>
+        <name>Field42__c</name>
+    </fields>
+    <fields>
+        <label><!-- パフォーマンス及び成長についての全体的なフィードバック（上司が記入） --></label>
+        <name>Field43__c</name>
+    </fields>
+    <fields>
+        <label><!-- パフォーマンス全体の評価（上司が記入） --></label>
+        <name>Field44__c</name>
+        <picklistValues>
+            <masterLabel>１　不可</masterLabel>
+            <translation><!-- １　不可 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>２　機会点あり</masterLabel>
+            <translation><!-- ２　機会点あり --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>３　達成</masterLabel>
+            <translation><!-- ３　達成 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>４　大幅な達成</masterLabel>
+            <translation><!-- ４　大幅な達成 --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- 目標 --></label>
+        <name>Field45__c</name>
+    </fields>
+    <fields>
+        <label><!-- 目標２ --></label>
+        <name>Field46__c</name>
+    </fields>
+    <fields>
+        <label><!-- 目標３ --></label>
+        <name>Field47__c</name>
+    </fields>
+    <fields>
+        <label><!-- 成功の測定評価方法１ --></label>
+        <name>Field48__c</name>
+    </fields>
+    <fields>
+        <label><!-- 成功の測定評価方法１ --></label>
+        <name>Field49__c</name>
+    </fields>
+    <fields>
+        <label><!-- 上司氏名 --></label>
+        <name>Field4__c</name>
+        <relationshipLabel><!-- 業績目標／パフォーマンス評価 (上司氏名) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- 成功の測定評価方法２ --></label>
+        <name>Field50__c</name>
+    </fields>
+    <fields>
+        <label><!-- 成功の測定評価方法２ --></label>
+        <name>Field51__c</name>
+    </fields>
+    <fields>
+        <label><!-- 成功の測定評価方法３ --></label>
+        <name>Field52__c</name>
+    </fields>
+    <fields>
+        <label><!-- 成功の測定評価方法３ --></label>
+        <name>Field53__c</name>
+    </fields>
+    <fields>
+        <label><!-- 変革と革新をリードする --></label>
+        <name>Field54__c</name>
+        <picklistValues>
+            <masterLabel>１＝不可</masterLabel>
+            <translation><!-- １＝不可 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>２＝機会点あり</masterLabel>
+            <translation><!-- ２＝機会点あり --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>３＝優秀</masterLabel>
+            <translation><!-- ３＝優秀 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>４＝極めて優秀</masterLabel>
+            <translation><!-- ４＝極めて優秀 --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- 戦略的に計画・実践する --></label>
+        <name>Field55__c</name>
+        <picklistValues>
+            <masterLabel>１＝不可</masterLabel>
+            <translation><!-- １＝不可 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>２＝機会点あり</masterLabel>
+            <translation><!-- ２＝機会点あり --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>３＝優秀</masterLabel>
+            <translation><!-- ３＝優秀 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>４＝極めて優秀</masterLabel>
+            <translation><!-- ４＝極めて優秀 --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- 効果的で率直にコミュニケーションする --></label>
+        <name>Field56__c</name>
+        <picklistValues>
+            <masterLabel>１＝不可</masterLabel>
+            <translation><!-- １＝不可 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>２＝機会点あり</masterLabel>
+            <translation><!-- ２＝機会点あり --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>３＝優秀</masterLabel>
+            <translation><!-- ３＝優秀 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>４＝極めて優秀</masterLabel>
+            <translation><!-- ４＝極めて優秀 --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- 結果を出すために行動する --></label>
+        <name>Field57__c</name>
+        <picklistValues>
+            <masterLabel>１＝不可</masterLabel>
+            <translation><!-- １＝不可 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>２＝機会点あり</masterLabel>
+            <translation><!-- ２＝機会点あり --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>３＝優秀</masterLabel>
+            <translation><!-- ３＝優秀 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>４＝極めて優秀</masterLabel>
+            <translation><!-- ４＝極めて優秀 --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- 影響力で相手をリードする --></label>
+        <name>Field58__c</name>
+        <picklistValues>
+            <masterLabel>１＝不可</masterLabel>
+            <translation><!-- １＝不可 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>２＝機会点あり</masterLabel>
+            <translation><!-- ２＝機会点あり --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>３＝優秀</masterLabel>
+            <translation><!-- ３＝優秀 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>４＝極めて優秀</masterLabel>
+            <translation><!-- ４＝極めて優秀 --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- タレントを育成し活用する --></label>
+        <name>Field59__c</name>
+        <picklistValues>
+            <masterLabel>１＝不可</masterLabel>
+            <translation><!-- １＝不可 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>２＝機会点あり</masterLabel>
+            <translation><!-- ２＝機会点あり --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>３＝優秀</masterLabel>
+            <translation><!-- ３＝優秀 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>４＝極めて優秀</masterLabel>
+            <translation><!-- ４＝極めて優秀 --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- 対象年度 --></label>
+        <name>Field5__c</name>
+    </fields>
+    <fields>
+        <label><!-- チームワークで目的を達成する --></label>
+        <name>Field60__c</name>
+        <picklistValues>
+            <masterLabel>１＝不可</masterLabel>
+            <translation><!-- １＝不可 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>２＝機会点あり</masterLabel>
+            <translation><!-- ２＝機会点あり --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>３＝優秀</masterLabel>
+            <translation><!-- ３＝優秀 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>４＝極めて優秀</masterLabel>
+            <translation><!-- ４＝極めて優秀 --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- お客様を最優先する --></label>
+        <name>Field61__c</name>
+        <picklistValues>
+            <masterLabel>１＝不可</masterLabel>
+            <translation><!-- １＝不可 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>２＝機会点あり</masterLabel>
+            <translation><!-- ２＝機会点あり --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>３＝優秀</masterLabel>
+            <translation><!-- ３＝優秀 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>４＝極めて優秀</masterLabel>
+            <translation><!-- ４＝極めて優秀 --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- 業績評価 --></label>
+        <name>Field62__c</name>
+        <picklistValues>
+            <masterLabel>１＝不可</masterLabel>
+            <translation><!-- １＝不可 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>２＝機会点あり</masterLabel>
+            <translation><!-- ２＝機会点あり --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>３＝優秀</masterLabel>
+            <translation><!-- ３＝優秀 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>４＝極めて優秀</masterLabel>
+            <translation><!-- ４＝極めて優秀 --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- リーダーシップコンピテンシー評価 --></label>
+        <name>Field63__c</name>
+        <picklistValues>
+            <masterLabel>１＝不可</masterLabel>
+            <translation><!-- １＝不可 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>２＝機会点あり</masterLabel>
+            <translation><!-- ２＝機会点あり --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>３＝優秀</masterLabel>
+            <translation><!-- ３＝優秀 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>４＝極めて優秀</masterLabel>
+            <translation><!-- ４＝極めて優秀 --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- ねばり強くやりぬく --></label>
+        <name>Field64__c</name>
+    </fields>
+    <fields>
+        <label><!-- 評価調整備考 --></label>
+        <name>Field65__c</name>
+    </fields>
+    <fields>
+        <label><!-- 本部 --></label>
+        <name>Field66__c</name>
+    </fields>
+    <fields>
+        <label><!-- 部門 --></label>
+        <name>Field67__c</name>
+    </fields>
+    <fields>
+        <help><!-- 自身が作成し、上司と確認する --></help>
+        <label><!-- 本部／部門／全社のゴール --></label>
+        <name>Field6__c</name>
+    </fields>
+    <fields>
+        <label><!-- 目標１ --></label>
+        <name>Field7__c</name>
+    </fields>
+    <fields>
+        <label><!-- 目標２ --></label>
+        <name>Field8__c</name>
+    </fields>
+    <fields>
+        <label><!-- 目標３ --></label>
+        <name>Field9__c</name>
+    </fields>
+    <fields>
+        <label><!-- 評価面談済 --></label>
+        <name>FinalInterviewed__c</name>
+    </fields>
+    <fields>
+        <label><!-- HRコメント --></label>
+        <name>HRComment__c</name>
+    </fields>
+    <fields>
+        <label><!-- IPF --></label>
+        <name>IPF__c</name>
+    </fields>
+    <fields>
+        <label><!-- Image2 --></label>
+        <name>Image2__c</name>
+    </fields>
+    <fields>
+        <label><!-- ジョブプロファイル --></label>
+        <name>JobProfile__c</name>
+        <relationshipLabel><!-- 業績目標／パフォーマンス評価 --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- 上司評価済み --></label>
+        <name>ManagerAssesmentSubmit__c</name>
+    </fields>
+    <fields>
+        <label><!-- 上司氏名 --></label>
+        <name>ManagerFullName__c</name>
+    </fields>
+    <fields>
+        <label><!-- 上司従業員番号 --></label>
+        <name>Manager__c</name>
+        <relationshipLabel><!-- 業績目標／パフォーマンス評価 (上司氏名) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- 組織 --></label>
+        <name>Organization__c</name>
+        <relationshipLabel><!-- 業績目標／パフォーマンス評価 --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- パフォーマンス全体の評価 --></label>
+        <name>PerformanceAssessment__c</name>
+    </fields>
+    <fields>
+        <label><!-- ラウンドテーブル完了 --></label>
+        <name>RoundTableComplete__c</name>
+    </fields>
+    <fields>
+        <label><!-- 自己評価提出 --></label>
+        <name>SelfAssessmentSubmit__c</name>
+    </fields>
+    <fields>
+        <label><!-- StatusSignal --></label>
+        <name>StatusSignal__c</name>
+    </fields>
+    <fields>
+        <label><!-- TIP基準額 --></label>
+        <name>TIP__c</name>
+    </fields>
+    <fields>
+        <label><!-- TPF（仮） --></label>
+        <name>TPF__c</name>
+    </fields>
+    <fields>
+        <label><!-- 達成予定日4 --></label>
+        <name>X444__c</name>
+    </fields>
+    <fields>
+        <label><!-- 成功の測定評価方法4 --></label>
+        <name>X44__c</name>
+    </fields>
+    <fields>
+        <label><!-- 目標4 --></label>
+        <name>X4__c</name>
+    </fields>
+    <fields>
+        <label><!-- purl --></label>
+        <name>purl__c</name>
+    </fields>
+    <layouts>
+        <layout>PDSレイアウト（期初）</layout>
+        <sections>
+            <label><!-- ■PDSヘッダ --></label>
+            <section>■PDSヘッダ</section>
+        </sections>
+        <sections>
+            <label><!-- ■期末評価 --></label>
+            <section>■期末評価</section>
+        </sections>
+        <sections>
+            <label><!-- ■業績目標 --></label>
+            <section>■業績目標</section>
+        </sections>
+        <sections>
+            <label><!-- ■自己成長の目標 --></label>
+            <section>■自己成長の目標</section>
+        </sections>
+        <sections>
+            <label><!-- カスタムリンク --></label>
+            <section>カスタムリンク</section>
+        </sections>
+        <sections>
+            <label><!-- 上長フィードバック --></label>
+            <section>上長フィードバック</section>
+        </sections>
+        <sections>
+            <label><!-- 上長評価（上長のみ参照可能） --></label>
+            <section>上長評価（上長のみ参照可能）</section>
+        </sections>
+        <sections>
+            <label><!-- 期中 --></label>
+            <section>期中</section>
+        </sections>
+        <sections>
+            <label><!-- 目標達成のために活用できる強み --></label>
+            <section>目標達成のために活用できる強み</section>
+        </sections>
+        <sections>
+            <label><!-- 自身のキャリアにおいて目指している事や興味を持っている事 --></label>
+            <section>自身のキャリアにおいて目指している事や興味を持っている事</section>
+        </sections>
+        <sections>
+            <label><!-- 自身の成長の目標 --></label>
+            <section>自身の成長の目標</section>
+        </sections>
+        <sections>
+            <label><!-- 自身の目標 --></label>
+            <section>自身の目標</section>
+        </sections>
+        <sections>
+            <label><!-- 自身の能力開発のために重点をおくコンピテンシー --></label>
+            <section>自身の能力開発のために重点をおくコンピテンシー</section>
+        </sections>
+        <sections>
+            <label><!-- 部署/部門/全社のゴール --></label>
+            <section>部署/部門/全社のゴール</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>PDSレイアウト（期末）</layout>
+        <sections>
+            <label><!-- ■PDSヘッダ --></label>
+            <section>■PDSヘッダ</section>
+        </sections>
+        <sections>
+            <label><!-- ■期末評価 --></label>
+            <section>■期末評価</section>
+        </sections>
+        <sections>
+            <label><!-- ■業績目標 --></label>
+            <section>■業績目標</section>
+        </sections>
+        <sections>
+            <label><!-- ■自己成長の目標 --></label>
+            <section>■自己成長の目標</section>
+        </sections>
+        <sections>
+            <label><!-- カスタムリンク --></label>
+            <section>カスタムリンク</section>
+        </sections>
+        <sections>
+            <label><!-- 目標達成のために活用できる強み --></label>
+            <section>目標達成のために活用できる強み</section>
+        </sections>
+        <sections>
+            <label><!-- 自身のキャリアにおいて目指している事や興味を持っている事 --></label>
+            <section>自身のキャリアにおいて目指している事や興味を持っている事</section>
+        </sections>
+        <sections>
+            <label><!-- 自身の成長の目標 --></label>
+            <section>自身の成長の目標</section>
+        </sections>
+        <sections>
+            <label><!-- 自身の目標 --></label>
+            <section>自身の目標</section>
+        </sections>
+        <sections>
+            <label><!-- 自身の能力開発のために重点をおくコンピテンシー --></label>
+            <section>自身の能力開発のために重点をおくコンピテンシー</section>
+        </sections>
+        <sections>
+            <label><!-- 部署/部門/全社のゴール --></label>
+            <section>部署/部門/全社のゴール</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>マネージャー・人事</layout>
+        <sections>
+            <label><!-- IPF --></label>
+            <section>IPF</section>
+        </sections>
+        <sections>
+            <label><!-- PDS評価 --></label>
+            <section>PDS評価</section>
+        </sections>
+        <sections>
+            <label><!-- ■PDSヘッダ --></label>
+            <section>■PDSヘッダ</section>
+        </sections>
+        <sections>
+            <label><!-- ■期末評価 --></label>
+            <section>■期末評価</section>
+        </sections>
+        <sections>
+            <label><!-- ■業績目標(My Performance Goals) --></label>
+            <section>■業績目標(My Performance Goals)</section>
+        </sections>
+        <sections>
+            <label><!-- ■自己成長の目標 --></label>
+            <section>■自己成長の目標</section>
+        </sections>
+        <sections>
+            <label><!-- カスタムリンク --></label>
+            <section>カスタムリンク</section>
+        </sections>
+        <sections>
+            <label><!-- リーダーシップコンピテンシー評価 --></label>
+            <section>リーダーシップコンピテンシー評価</section>
+        </sections>
+        <sections>
+            <label><!-- 上長フィードバック --></label>
+            <section>上長フィードバック</section>
+        </sections>
+        <sections>
+            <label><!-- 仮TIP計算用 --></label>
+            <section>仮TIP計算用</section>
+        </sections>
+        <sections>
+            <label><!-- 備考 --></label>
+            <section>備考</section>
+        </sections>
+        <sections>
+            <label><!-- 本人入力 --></label>
+            <section>本人入力</section>
+        </sections>
+        <sections>
+            <label><!-- 目標達成のために活用できる強み --></label>
+            <section>目標達成のために活用できる強み</section>
+        </sections>
+        <sections>
+            <label><!-- 自身のキャリアにおいて目指している事や興味を持っている事 --></label>
+            <section>自身のキャリアにおいて目指している事や興味を持っている事</section>
+        </sections>
+        <sections>
+            <label><!-- 自身の成長の目標 --></label>
+            <section>自身の成長の目標</section>
+        </sections>
+        <sections>
+            <label><!-- 自身の目標 --></label>
+            <section>自身の目標</section>
+        </sections>
+        <sections>
+            <label><!-- 自身の能力開発のために重点をおくコンピテンシー --></label>
+            <section>自身の能力開発のために重点をおくコンピテンシー</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>上司評価済</layout>
+        <sections>
+            <label><!-- IPF --></label>
+            <section>IPF</section>
+        </sections>
+        <sections>
+            <label><!-- PDS評価 --></label>
+            <section>PDS評価</section>
+        </sections>
+        <sections>
+            <label><!-- ■PDSヘッダ --></label>
+            <section>■PDSヘッダ</section>
+        </sections>
+        <sections>
+            <label><!-- ■業績目標(My Performance Goals) --></label>
+            <section>■業績目標(My Performance Goals)</section>
+        </sections>
+        <sections>
+            <label><!-- ■自己成長の目標 --></label>
+            <section>■自己成長の目標</section>
+        </sections>
+        <sections>
+            <label><!-- カスタムリンク --></label>
+            <section>カスタムリンク</section>
+        </sections>
+        <sections>
+            <label><!-- リーダーシップコンピテンシー評価 --></label>
+            <section>リーダーシップコンピテンシー評価</section>
+        </sections>
+        <sections>
+            <label><!-- 上長フィードバック --></label>
+            <section>上長フィードバック</section>
+        </sections>
+        <sections>
+            <label><!-- 備考 --></label>
+            <section>備考</section>
+        </sections>
+        <sections>
+            <label><!-- 本人入力 --></label>
+            <section>本人入力</section>
+        </sections>
+        <sections>
+            <label><!-- 目標達成のために活用できる強み --></label>
+            <section>目標達成のために活用できる強み</section>
+        </sections>
+        <sections>
+            <label><!-- 自身のキャリアにおいて目指している事や興味を持っている事 --></label>
+            <section>自身のキャリアにおいて目指している事や興味を持っている事</section>
+        </sections>
+        <sections>
+            <label><!-- 自身の成長の目標 --></label>
+            <section>自身の成長の目標</section>
+        </sections>
+        <sections>
+            <label><!-- 自身の目標 --></label>
+            <section>自身の目標</section>
+        </sections>
+        <sections>
+            <label><!-- 自身の能力開発のために重点をおくコンピテンシー --></label>
+            <section>自身の能力開発のために重点をおくコンピテンシー</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>目標承認済</layout>
+        <sections>
+            <label><!-- ■PDSヘッダ --></label>
+            <section>■PDSヘッダ</section>
+        </sections>
+        <sections>
+            <label><!-- ■業績目標(My Performance Goals) --></label>
+            <section>■業績目標(My Performance Goals)</section>
+        </sections>
+        <sections>
+            <label><!-- ■自己成長の目標 --></label>
+            <section>■自己成長の目標</section>
+        </sections>
+        <sections>
+            <label><!-- カスタムリンク --></label>
+            <section>カスタムリンク</section>
+        </sections>
+        <sections>
+            <label><!-- 本人入力 --></label>
+            <section>本人入力</section>
+        </sections>
+        <sections>
+            <label><!-- 目標達成のために活用できる強み --></label>
+            <section>目標達成のために活用できる強み</section>
+        </sections>
+        <sections>
+            <label><!-- 自身のキャリアにおいて目指している事や興味を持っている事 --></label>
+            <section>自身のキャリアにおいて目指している事や興味を持っている事</section>
+        </sections>
+        <sections>
+            <label><!-- 自身の成長の目標 --></label>
+            <section>自身の成長の目標</section>
+        </sections>
+        <sections>
+            <label><!-- 自身の目標 --></label>
+            <section>自身の目標</section>
+        </sections>
+        <sections>
+            <label><!-- 自身の能力開発のために重点をおくコンピテンシー --></label>
+            <section>自身の能力開発のために重点をおくコンピテンシー</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>目標未承認</layout>
+        <sections>
+            <label><!-- ■PDSヘッダ --></label>
+            <section>■PDSヘッダ</section>
+        </sections>
+        <sections>
+            <label><!-- ■業績目標(My Performance Goals) --></label>
+            <section>■業績目標(My Performance Goals)</section>
+        </sections>
+        <sections>
+            <label><!-- ■自己成長の目標 --></label>
+            <section>■自己成長の目標</section>
+        </sections>
+        <sections>
+            <label><!-- カスタムリンク --></label>
+            <section>カスタムリンク</section>
+        </sections>
+        <sections>
+            <label><!-- 目標達成のために活用できる強み --></label>
+            <section>目標達成のために活用できる強み</section>
+        </sections>
+        <sections>
+            <label><!-- 自身のキャリアにおいて目指している事や興味を持っている事 --></label>
+            <section>自身のキャリアにおいて目指している事や興味を持っている事</section>
+        </sections>
+        <sections>
+            <label><!-- 自身の成長の目標 --></label>
+            <section>自身の成長の目標</section>
+        </sections>
+        <sections>
+            <label><!-- 自身の目標 --></label>
+            <section>自身の目標</section>
+        </sections>
+        <sections>
+            <label><!-- 自身の能力開発のために重点をおくコンピテンシー --></label>
+            <section>自身の能力開発のために重点をおくコンピテンシー</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>自己評価済</layout>
+        <sections>
+            <label><!-- IPF --></label>
+            <section>IPF</section>
+        </sections>
+        <sections>
+            <label><!-- PDS評価 --></label>
+            <section>PDS評価</section>
+        </sections>
+        <sections>
+            <label><!-- ■PDSヘッダ --></label>
+            <section>■PDSヘッダ</section>
+        </sections>
+        <sections>
+            <label><!-- ■業績目標(My Performance Goals) --></label>
+            <section>■業績目標(My Performance Goals)</section>
+        </sections>
+        <sections>
+            <label><!-- ■自己成長の目標 --></label>
+            <section>■自己成長の目標</section>
+        </sections>
+        <sections>
+            <label><!-- カスタムリンク --></label>
+            <section>カスタムリンク</section>
+        </sections>
+        <sections>
+            <label><!-- リーダーシップコンピテンシー評価 --></label>
+            <section>リーダーシップコンピテンシー評価</section>
+        </sections>
+        <sections>
+            <label><!-- 上長フィードバック --></label>
+            <section>上長フィードバック</section>
+        </sections>
+        <sections>
+            <label><!-- 備考 --></label>
+            <section>備考</section>
+        </sections>
+        <sections>
+            <label><!-- 本人入力 --></label>
+            <section>本人入力</section>
+        </sections>
+        <sections>
+            <label><!-- 目標達成のために活用できる強み --></label>
+            <section>目標達成のために活用できる強み</section>
+        </sections>
+        <sections>
+            <label><!-- 自身のキャリアにおいて目指している事や興味を持っている事 --></label>
+            <section>自身のキャリアにおいて目指している事や興味を持っている事</section>
+        </sections>
+        <sections>
+            <label><!-- 自身の成長の目標 --></label>
+            <section>自身の成長の目標</section>
+        </sections>
+        <sections>
+            <label><!-- 自身の目標 --></label>
+            <section>自身の目標</section>
+        </sections>
+        <sections>
+            <label><!-- 自身の能力開発のために重点をおくコンピテンシー --></label>
+            <section>自身の能力開発のために重点をおくコンピテンシー</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>評価確定</layout>
+        <sections>
+            <label><!-- IPF --></label>
+            <section>IPF</section>
+        </sections>
+        <sections>
+            <label><!-- PDS評価 --></label>
+            <section>PDS評価</section>
+        </sections>
+        <sections>
+            <label><!-- ■PDSヘッダ --></label>
+            <section>■PDSヘッダ</section>
+        </sections>
+        <sections>
+            <label><!-- ■業績目標(My Performance Goals) --></label>
+            <section>■業績目標(My Performance Goals)</section>
+        </sections>
+        <sections>
+            <label><!-- ■自己成長の目標 --></label>
+            <section>■自己成長の目標</section>
+        </sections>
+        <sections>
+            <label><!-- カスタムリンク --></label>
+            <section>カスタムリンク</section>
+        </sections>
+        <sections>
+            <label><!-- リーダーシップコンピテンシー評価 --></label>
+            <section>リーダーシップコンピテンシー評価</section>
+        </sections>
+        <sections>
+            <label><!-- 上長フィードバック --></label>
+            <section>上長フィードバック</section>
+        </sections>
+        <sections>
+            <label><!-- 備考 --></label>
+            <section>備考</section>
+        </sections>
+        <sections>
+            <label><!-- 本人入力 --></label>
+            <section>本人入力</section>
+        </sections>
+        <sections>
+            <label><!-- 目標達成のために活用できる強み --></label>
+            <section>目標達成のために活用できる強み</section>
+        </sections>
+        <sections>
+            <label><!-- 自身のキャリアにおいて目指している事や興味を持っている事 --></label>
+            <section>自身のキャリアにおいて目指している事や興味を持っている事</section>
+        </sections>
+        <sections>
+            <label><!-- 自身の成長の目標 --></label>
+            <section>自身の成長の目標</section>
+        </sections>
+        <sections>
+            <label><!-- 自身の目標 --></label>
+            <section>自身の目標</section>
+        </sections>
+        <sections>
+            <label><!-- 自身の能力開発のために重点をおくコンピテンシー --></label>
+            <section>自身の能力開発のために重点をおくコンピテンシー</section>
+        </sections>
+    </layouts>
+    <recordTypes>
+        <label><!-- 02.目標承認済 --></label>
+        <name>Approved</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- 評価中 --></label>
+        <name>DuringEvaluation</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- 05.評価確定 --></label>
+        <name>EvaluationConfirmed</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- 01.目標未承認 --></label>
+        <name>NotApproved</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- 03.自己評価済 --></label>
+        <name>RecordType003</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- 04.評価済 --></label>
+        <name>RecordType004</name>
+    </recordTypes>
+    <validationRules>
+        <errorMessage><!-- 上長承認済のため、期初の記入内容を変更することはできません。 --></errorMessage>
+        <name>IsChanged</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- ジョブプロファイルが未承認のため、業績目標を登録することができません。 --></errorMessage>
+        <name>JobProfileApprovalCheck</name>
+    </validationRules>
+    <webLinks>
+        <label><!-- NewPDS --></label>
+        <name>NewPDS</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Request_for_360_feedback --></label>
+        <name>Request_for_360_feedback</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Result_of_360_feedback --></label>
+        <name>Result_of_360_feedback</name>
+    </webLinks>
+</CustomObjectTranslation>

@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>応募</value>
+    </caseValues>
+    <fields>
+        <label><!-- 応募者（名） --></label>
+        <name>ApplicantFirstName__c</name>
+    </fields>
+    <fields>
+        <label><!-- 応募者（姓） --></label>
+        <name>ApplicantLastName__c</name>
+    </fields>
+    <fields>
+        <label><!-- 応募者メールアドレス --></label>
+        <name>ApplicantMail__c</name>
+    </fields>
+    <fields>
+        <label><!-- 書類選考 --></label>
+        <name>DocumentScreening__c</name>
+        <picklistValues>
+            <masterLabel>NG</masterLabel>
+            <translation><!-- NG --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>OK</masterLabel>
+            <translation><!-- OK --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- 紹介社員　従業員番号 --></label>
+        <name>Emp_intro_no__c</name>
+        <relationshipLabel><!-- 応募 --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- 面接候補日（第三希望） --></label>
+        <name>Field10__c</name>
+    </fields>
+    <fields>
+        <label><!-- 面接日 --></label>
+        <name>Field11__c</name>
+    </fields>
+    <fields>
+        <label><!-- 連絡事項 --></label>
+        <name>Field12__c</name>
+    </fields>
+    <fields>
+        <label><!-- 連絡事項 --></label>
+        <name>Field13__c</name>
+    </fields>
+    <fields>
+        <label><!-- 連絡事項 --></label>
+        <name>Field14__c</name>
+    </fields>
+    <fields>
+        <label><!-- ステータス --></label>
+        <name>Field1__c</name>
+        <picklistValues>
+            <masterLabel>Decline</masterLabel>
+            <translation><!-- Decline --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Interview</masterLabel>
+            <translation><!-- Interview --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Offer</masterLabel>
+            <translation><!-- Offer --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Offer Accepted</masterLabel>
+            <translation><!-- Offer Accepted --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Offer Declined</masterLabel>
+            <translation><!-- Offer Declined --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Pending</masterLabel>
+            <translation><!-- Pending --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Screening</masterLabel>
+            <translation><!-- Screening --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- 入社予定日 --></label>
+        <name>Field2__c</name>
+    </fields>
+    <fields>
+        <label><!-- 面接候補日（第一希望） --></label>
+        <name>Field3__c</name>
+    </fields>
+    <fields>
+        <label><!-- 面接候補日（第二希望） --></label>
+        <name>Field4__c</name>
+    </fields>
+    <fields>
+        <label><!-- 面接候補日（第三希望） --></label>
+        <name>Field5__c</name>
+    </fields>
+    <fields>
+        <label><!-- 面接日 --></label>
+        <name>Field6__c</name>
+    </fields>
+    <fields>
+        <label><!-- 連絡事項 --></label>
+        <name>Field7__c</name>
+    </fields>
+    <fields>
+        <label><!-- 面接候補日（第一希望） --></label>
+        <name>Field8__c</name>
+    </fields>
+    <fields>
+        <label><!-- 面接候補日（第二希望） --></label>
+        <name>Field9__c</name>
+    </fields>
+    <fields>
+        <label><!-- 募集 --></label>
+        <name>JobOffer__c</name>
+        <relationshipLabel><!-- 応募 --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- 備考 --></label>
+        <name>Note__c</name>
+    </fields>
+    <fields>
+        <label><!-- 採用エージェンシー担当者 --></label>
+        <name>RecruitmentAgencyContact__c</name>
+        <relationshipLabel><!-- 応募 --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- 採用エージェンシー --></label>
+        <name>RecruitmentAgency__c</name>
+        <relationshipLabel><!-- 応募 --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- 応募理由 --></label>
+        <name>WighReason__c</name>
+    </fields>
+    <recordTypes>
+        <label><!-- 採用エージェンシー --></label>
+        <name>Agency</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- 社員紹介 --></label>
+        <name>Emp_Referral</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- 社内公募 --></label>
+        <name>Internal_application</name>
+    </recordTypes>
+</CustomObjectTranslation>

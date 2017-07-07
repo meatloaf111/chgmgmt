@@ -1,0 +1,1320 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>ジョブプロファイル</value>
+    </caseValues>
+    <fields>
+        <label><!-- 承認ステータス --></label>
+        <name>ApprovalStatus__c</name>
+        <picklistValues>
+            <masterLabel>承認済</masterLabel>
+            <translation><!-- 承認済 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>未承認</masterLabel>
+            <translation><!-- 未承認 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>申請済</masterLabel>
+            <translation><!-- 申請済 --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- 承認者 --></label>
+        <name>Authorizer__c</name>
+        <relationshipLabel><!-- ジョブプロファイル --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- コンピテンシー001 --></label>
+        <name>Comp001__c</name>
+        <picklistValues>
+            <masterLabel>Advanced</masterLabel>
+            <translation><!-- Advanced --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Expert</masterLabel>
+            <translation><!-- Expert --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Skilled</masterLabel>
+            <translation><!-- Skilled --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Strategic Leader</masterLabel>
+            <translation><!-- Strategic Leader --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- コンピテンシー002 --></label>
+        <name>Comp002__c</name>
+        <picklistValues>
+            <masterLabel>Advanced</masterLabel>
+            <translation><!-- Advanced --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Expert</masterLabel>
+            <translation><!-- Expert --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Skilled</masterLabel>
+            <translation><!-- Skilled --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Strategic Leader</masterLabel>
+            <translation><!-- Strategic Leader --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- コンピテンシー003 --></label>
+        <name>Comp003__c</name>
+        <picklistValues>
+            <masterLabel>Advanced</masterLabel>
+            <translation><!-- Advanced --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Expert</masterLabel>
+            <translation><!-- Expert --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Skilled</masterLabel>
+            <translation><!-- Skilled --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Strategic Leader</masterLabel>
+            <translation><!-- Strategic Leader --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- コンピテンシー004 --></label>
+        <name>Comp004__c</name>
+        <picklistValues>
+            <masterLabel>Advanced</masterLabel>
+            <translation><!-- Advanced --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Expert</masterLabel>
+            <translation><!-- Expert --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Skilled</masterLabel>
+            <translation><!-- Skilled --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Strategic Leader</masterLabel>
+            <translation><!-- Strategic Leader --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- コンピテンシー005 --></label>
+        <name>Comp005__c</name>
+        <picklistValues>
+            <masterLabel>Advanced</masterLabel>
+            <translation><!-- Advanced --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Expert</masterLabel>
+            <translation><!-- Expert --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Skilled</masterLabel>
+            <translation><!-- Skilled --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Strategic Leader</masterLabel>
+            <translation><!-- Strategic Leader --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- コンピテンシー006 --></label>
+        <name>Comp006__c</name>
+        <picklistValues>
+            <masterLabel>Advanced</masterLabel>
+            <translation><!-- Advanced --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Expert</masterLabel>
+            <translation><!-- Expert --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Skilled</masterLabel>
+            <translation><!-- Skilled --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Strategic Leader</masterLabel>
+            <translation><!-- Strategic Leader --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- コンピテンシー007 --></label>
+        <name>Comp007__c</name>
+        <picklistValues>
+            <masterLabel>Advanced</masterLabel>
+            <translation><!-- Advanced --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Expert</masterLabel>
+            <translation><!-- Expert --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Skilled</masterLabel>
+            <translation><!-- Skilled --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Strategic Leader</masterLabel>
+            <translation><!-- Strategic Leader --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- コンピテンシー008 --></label>
+        <name>Comp008__c</name>
+        <picklistValues>
+            <masterLabel>Advanced</masterLabel>
+            <translation><!-- Advanced --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Expert</masterLabel>
+            <translation><!-- Expert --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Skilled</masterLabel>
+            <translation><!-- Skilled --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Strategic Leader</masterLabel>
+            <translation><!-- Strategic Leader --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- コンピテンシー009 --></label>
+        <name>Comp009__c</name>
+        <picklistValues>
+            <masterLabel>Advanced</masterLabel>
+            <translation><!-- Advanced --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Expert</masterLabel>
+            <translation><!-- Expert --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Skilled</masterLabel>
+            <translation><!-- Skilled --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Strategic Leader</masterLabel>
+            <translation><!-- Strategic Leader --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- コンピテンシー010 --></label>
+        <name>Comp010__c</name>
+        <picklistValues>
+            <masterLabel>Advanced</masterLabel>
+            <translation><!-- Advanced --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Expert</masterLabel>
+            <translation><!-- Expert --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Skilled</masterLabel>
+            <translation><!-- Skilled --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Strategic Leader</masterLabel>
+            <translation><!-- Strategic Leader --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- コンピテンシー011 --></label>
+        <name>Comp011__c</name>
+        <picklistValues>
+            <masterLabel>Advanced</masterLabel>
+            <translation><!-- Advanced --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Expert</masterLabel>
+            <translation><!-- Expert --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Skilled</masterLabel>
+            <translation><!-- Skilled --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Strategic Leader</masterLabel>
+            <translation><!-- Strategic Leader --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- コンピテンシー012 --></label>
+        <name>Comp012__c</name>
+        <picklistValues>
+            <masterLabel>Advanced</masterLabel>
+            <translation><!-- Advanced --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Expert</masterLabel>
+            <translation><!-- Expert --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Skilled</masterLabel>
+            <translation><!-- Skilled --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Strategic Leader</masterLabel>
+            <translation><!-- Strategic Leader --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- コンピテンシー013 --></label>
+        <name>Comp013__c</name>
+        <picklistValues>
+            <masterLabel>Advanced</masterLabel>
+            <translation><!-- Advanced --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Expert</masterLabel>
+            <translation><!-- Expert --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Skilled</masterLabel>
+            <translation><!-- Skilled --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Strategic Leader</masterLabel>
+            <translation><!-- Strategic Leader --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- コンピテンシー014 --></label>
+        <name>Comp014__c</name>
+        <picklistValues>
+            <masterLabel>Advanced</masterLabel>
+            <translation><!-- Advanced --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Expert</masterLabel>
+            <translation><!-- Expert --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Skilled</masterLabel>
+            <translation><!-- Skilled --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Strategic Leader</masterLabel>
+            <translation><!-- Strategic Leader --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- コンピテンシー015 --></label>
+        <name>Comp015__c</name>
+        <picklistValues>
+            <masterLabel>Advanced</masterLabel>
+            <translation><!-- Advanced --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Expert</masterLabel>
+            <translation><!-- Expert --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Skilled</masterLabel>
+            <translation><!-- Skilled --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Strategic Leader</masterLabel>
+            <translation><!-- Strategic Leader --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- コンピテンシー016 --></label>
+        <name>Comp016__c</name>
+        <picklistValues>
+            <masterLabel>Advanced</masterLabel>
+            <translation><!-- Advanced --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Expert</masterLabel>
+            <translation><!-- Expert --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Skilled</masterLabel>
+            <translation><!-- Skilled --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Strategic Leader</masterLabel>
+            <translation><!-- Strategic Leader --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- コンピテンシー017 --></label>
+        <name>Comp017__c</name>
+        <picklistValues>
+            <masterLabel>Advanced</masterLabel>
+            <translation><!-- Advanced --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Expert</masterLabel>
+            <translation><!-- Expert --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Skilled</masterLabel>
+            <translation><!-- Skilled --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Strategic Leader</masterLabel>
+            <translation><!-- Strategic Leader --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- コンピテンシー018 --></label>
+        <name>Comp018__c</name>
+        <picklistValues>
+            <masterLabel>Advanced</masterLabel>
+            <translation><!-- Advanced --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Expert</masterLabel>
+            <translation><!-- Expert --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Skilled</masterLabel>
+            <translation><!-- Skilled --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Strategic Leader</masterLabel>
+            <translation><!-- Strategic Leader --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- コンピテンシー019 --></label>
+        <name>Comp019__c</name>
+        <picklistValues>
+            <masterLabel>Advanced</masterLabel>
+            <translation><!-- Advanced --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Expert</masterLabel>
+            <translation><!-- Expert --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Skilled</masterLabel>
+            <translation><!-- Skilled --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Strategic Leader</masterLabel>
+            <translation><!-- Strategic Leader --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- コンピテンシー020 --></label>
+        <name>Comp020__c</name>
+        <picklistValues>
+            <masterLabel>Advanced</masterLabel>
+            <translation><!-- Advanced --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Expert</masterLabel>
+            <translation><!-- Expert --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Skilled</masterLabel>
+            <translation><!-- Skilled --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Strategic Leader</masterLabel>
+            <translation><!-- Strategic Leader --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- コンピテンシー021 --></label>
+        <name>Comp021__c</name>
+        <picklistValues>
+            <masterLabel>Advanced</masterLabel>
+            <translation><!-- Advanced --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Expert</masterLabel>
+            <translation><!-- Expert --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Skilled</masterLabel>
+            <translation><!-- Skilled --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Strategic Leader</masterLabel>
+            <translation><!-- Strategic Leader --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- コンピテンシー022 --></label>
+        <name>Comp022__c</name>
+        <picklistValues>
+            <masterLabel>Advanced</masterLabel>
+            <translation><!-- Advanced --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Expert</masterLabel>
+            <translation><!-- Expert --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Skilled</masterLabel>
+            <translation><!-- Skilled --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Strategic Leader</masterLabel>
+            <translation><!-- Strategic Leader --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- コンピテンシー023 --></label>
+        <name>Comp023__c</name>
+        <picklistValues>
+            <masterLabel>Advanced</masterLabel>
+            <translation><!-- Advanced --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Expert</masterLabel>
+            <translation><!-- Expert --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Skilled</masterLabel>
+            <translation><!-- Skilled --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Strategic Leader</masterLabel>
+            <translation><!-- Strategic Leader --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- コンピテンシー024 --></label>
+        <name>Comp024__c</name>
+        <picklistValues>
+            <masterLabel>Advanced</masterLabel>
+            <translation><!-- Advanced --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Expert</masterLabel>
+            <translation><!-- Expert --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Skilled</masterLabel>
+            <translation><!-- Skilled --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Strategic Leader</masterLabel>
+            <translation><!-- Strategic Leader --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- コンピテンシー025 --></label>
+        <name>Comp025__c</name>
+        <picklistValues>
+            <masterLabel>Advanced</masterLabel>
+            <translation><!-- Advanced --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Expert</masterLabel>
+            <translation><!-- Expert --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Skilled</masterLabel>
+            <translation><!-- Skilled --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Strategic Leader</masterLabel>
+            <translation><!-- Strategic Leader --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- コンピテンシー026 --></label>
+        <name>Comp026__c</name>
+        <picklistValues>
+            <masterLabel>Advanced</masterLabel>
+            <translation><!-- Advanced --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Expert</masterLabel>
+            <translation><!-- Expert --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Skilled</masterLabel>
+            <translation><!-- Skilled --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Strategic Leader</masterLabel>
+            <translation><!-- Strategic Leader --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- コンピテンシー027 --></label>
+        <name>Comp027__c</name>
+        <picklistValues>
+            <masterLabel>Advanced</masterLabel>
+            <translation><!-- Advanced --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Expert</masterLabel>
+            <translation><!-- Expert --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Skilled</masterLabel>
+            <translation><!-- Skilled --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Strategic Leader</masterLabel>
+            <translation><!-- Strategic Leader --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- コンピテンシー028 --></label>
+        <name>Comp028__c</name>
+        <picklistValues>
+            <masterLabel>Advanced</masterLabel>
+            <translation><!-- Advanced --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Expert</masterLabel>
+            <translation><!-- Expert --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Skilled</masterLabel>
+            <translation><!-- Skilled --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Strategic Leader</masterLabel>
+            <translation><!-- Strategic Leader --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- コンピテンシー029 --></label>
+        <name>Comp029__c</name>
+        <picklistValues>
+            <masterLabel>Advanced</masterLabel>
+            <translation><!-- Advanced --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Expert</masterLabel>
+            <translation><!-- Expert --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Skilled</masterLabel>
+            <translation><!-- Skilled --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Strategic Leader</masterLabel>
+            <translation><!-- Strategic Leader --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- コンピテンシー030 --></label>
+        <name>Comp030__c</name>
+        <picklistValues>
+            <masterLabel>Advanced</masterLabel>
+            <translation><!-- Advanced --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Expert</masterLabel>
+            <translation><!-- Expert --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Skilled</masterLabel>
+            <translation><!-- Skilled --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Strategic Leader</masterLabel>
+            <translation><!-- Strategic Leader --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- コンピテンシー031 --></label>
+        <name>Comp031__c</name>
+        <picklistValues>
+            <masterLabel>Advanced</masterLabel>
+            <translation><!-- Advanced --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Expert</masterLabel>
+            <translation><!-- Expert --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Skilled</masterLabel>
+            <translation><!-- Skilled --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Strategic Leader</masterLabel>
+            <translation><!-- Strategic Leader --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- コンピテンシー032 --></label>
+        <name>Comp032__c</name>
+        <picklistValues>
+            <masterLabel>Advanced</masterLabel>
+            <translation><!-- Advanced --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Expert</masterLabel>
+            <translation><!-- Expert --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Skilled</masterLabel>
+            <translation><!-- Skilled --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Strategic Leader</masterLabel>
+            <translation><!-- Strategic Leader --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- コンピテンシー033 --></label>
+        <name>Comp033__c</name>
+        <picklistValues>
+            <masterLabel>Advanced</masterLabel>
+            <translation><!-- Advanced --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Expert</masterLabel>
+            <translation><!-- Expert --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Skilled</masterLabel>
+            <translation><!-- Skilled --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Strategic Leader</masterLabel>
+            <translation><!-- Strategic Leader --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- コンピテンシー034 --></label>
+        <name>Comp034__c</name>
+        <picklistValues>
+            <masterLabel>Advanced</masterLabel>
+            <translation><!-- Advanced --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Expert</masterLabel>
+            <translation><!-- Expert --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Skilled</masterLabel>
+            <translation><!-- Skilled --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Strategic Leader</masterLabel>
+            <translation><!-- Strategic Leader --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- コンピテンシー035 --></label>
+        <name>Comp035__c</name>
+        <picklistValues>
+            <masterLabel>Advanced</masterLabel>
+            <translation><!-- Advanced --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Expert</masterLabel>
+            <translation><!-- Expert --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Skilled</masterLabel>
+            <translation><!-- Skilled --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Strategic Leader</masterLabel>
+            <translation><!-- Strategic Leader --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- コンピテンシー036 --></label>
+        <name>Comp036__c</name>
+        <picklistValues>
+            <masterLabel>Advanced</masterLabel>
+            <translation><!-- Advanced --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Expert</masterLabel>
+            <translation><!-- Expert --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Skilled</masterLabel>
+            <translation><!-- Skilled --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Strategic Leader</masterLabel>
+            <translation><!-- Strategic Leader --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- コンピテンシー037 --></label>
+        <name>Comp037__c</name>
+        <picklistValues>
+            <masterLabel>Advanced</masterLabel>
+            <translation><!-- Advanced --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Expert</masterLabel>
+            <translation><!-- Expert --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Skilled</masterLabel>
+            <translation><!-- Skilled --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Strategic Leader</masterLabel>
+            <translation><!-- Strategic Leader --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- コンピテンシー038 --></label>
+        <name>Comp038__c</name>
+        <picklistValues>
+            <masterLabel>Advanced</masterLabel>
+            <translation><!-- Advanced --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Expert</masterLabel>
+            <translation><!-- Expert --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Skilled</masterLabel>
+            <translation><!-- Skilled --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Strategic Leader</masterLabel>
+            <translation><!-- Strategic Leader --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- コンピテンシー039 --></label>
+        <name>Comp039__c</name>
+        <picklistValues>
+            <masterLabel>Advanced</masterLabel>
+            <translation><!-- Advanced --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Expert</masterLabel>
+            <translation><!-- Expert --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Skilled</masterLabel>
+            <translation><!-- Skilled --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Strategic Leader</masterLabel>
+            <translation><!-- Strategic Leader --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- コンピテンシー040 --></label>
+        <name>Comp040__c</name>
+        <picklistValues>
+            <masterLabel>Advanced</masterLabel>
+            <translation><!-- Advanced --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Expert</masterLabel>
+            <translation><!-- Expert --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Skilled</masterLabel>
+            <translation><!-- Skilled --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Strategic Leader</masterLabel>
+            <translation><!-- Strategic Leader --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- コンピテンシー041 --></label>
+        <name>Comp041__c</name>
+        <picklistValues>
+            <masterLabel>Advanced</masterLabel>
+            <translation><!-- Advanced --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Expert</masterLabel>
+            <translation><!-- Expert --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Skilled</masterLabel>
+            <translation><!-- Skilled --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Strategic Leader</masterLabel>
+            <translation><!-- Strategic Leader --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- コンピテンシー042 --></label>
+        <name>Comp042__c</name>
+        <picklistValues>
+            <masterLabel>Advanced</masterLabel>
+            <translation><!-- Advanced --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Expert</masterLabel>
+            <translation><!-- Expert --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Skilled</masterLabel>
+            <translation><!-- Skilled --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Strategic Leader</masterLabel>
+            <translation><!-- Strategic Leader --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- コンピテンシー043 --></label>
+        <name>Comp043__c</name>
+        <picklistValues>
+            <masterLabel>Advanced</masterLabel>
+            <translation><!-- Advanced --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Expert</masterLabel>
+            <translation><!-- Expert --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Skilled</masterLabel>
+            <translation><!-- Skilled --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Strategic Leader</masterLabel>
+            <translation><!-- Strategic Leader --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- コンピテンシー044 --></label>
+        <name>Comp044__c</name>
+        <picklistValues>
+            <masterLabel>Advanced</masterLabel>
+            <translation><!-- Advanced --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Expert</masterLabel>
+            <translation><!-- Expert --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Skilled</masterLabel>
+            <translation><!-- Skilled --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Strategic Leader</masterLabel>
+            <translation><!-- Strategic Leader --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- コンピテンシー045 --></label>
+        <name>Comp045__c</name>
+        <picklistValues>
+            <masterLabel>Advanced</masterLabel>
+            <translation><!-- Advanced --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Expert</masterLabel>
+            <translation><!-- Expert --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Skilled</masterLabel>
+            <translation><!-- Skilled --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Strategic Leader</masterLabel>
+            <translation><!-- Strategic Leader --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- コンピテンシー046 --></label>
+        <name>Comp046__c</name>
+        <picklistValues>
+            <masterLabel>Advanced</masterLabel>
+            <translation><!-- Advanced --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Expert</masterLabel>
+            <translation><!-- Expert --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Skilled</masterLabel>
+            <translation><!-- Skilled --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Strategic Leader</masterLabel>
+            <translation><!-- Strategic Leader --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- コンピテンシー047 --></label>
+        <name>Comp047__c</name>
+        <picklistValues>
+            <masterLabel>Advanced</masterLabel>
+            <translation><!-- Advanced --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Expert</masterLabel>
+            <translation><!-- Expert --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Skilled</masterLabel>
+            <translation><!-- Skilled --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Strategic Leader</masterLabel>
+            <translation><!-- Strategic Leader --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- コンピテンシー048 --></label>
+        <name>Comp048__c</name>
+        <picklistValues>
+            <masterLabel>Advanced</masterLabel>
+            <translation><!-- Advanced --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Expert</masterLabel>
+            <translation><!-- Expert --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Skilled</masterLabel>
+            <translation><!-- Skilled --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Strategic Leader</masterLabel>
+            <translation><!-- Strategic Leader --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- コンピテンシー049 --></label>
+        <name>Comp049__c</name>
+        <picklistValues>
+            <masterLabel>Advanced</masterLabel>
+            <translation><!-- Advanced --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Expert</masterLabel>
+            <translation><!-- Expert --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Skilled</masterLabel>
+            <translation><!-- Skilled --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Strategic Leader</masterLabel>
+            <translation><!-- Strategic Leader --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- コンピテンシー050 --></label>
+        <name>Comp050__c</name>
+        <picklistValues>
+            <masterLabel>Advanced</masterLabel>
+            <translation><!-- Advanced --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Expert</masterLabel>
+            <translation><!-- Expert --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Skilled</masterLabel>
+            <translation><!-- Skilled --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Strategic Leader</masterLabel>
+            <translation><!-- Strategic Leader --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- 影響力で相手をリードする --></label>
+        <name>Field10__c</name>
+    </fields>
+    <fields>
+        <label><!-- チームワークで目的を達成する --></label>
+        <name>Field11__c</name>
+    </fields>
+    <fields>
+        <label><!-- お客様を最優先する --></label>
+        <name>Field12__c</name>
+    </fields>
+    <fields>
+        <label><!-- タレントを育成し活用する --></label>
+        <name>Field13__c</name>
+    </fields>
+    <fields>
+        <label><!-- 結果を出すために行動する --></label>
+        <name>Field14__c</name>
+    </fields>
+    <fields>
+        <label><!-- 効果的で率直にコミュニケーションする --></label>
+        <name>Field15__c</name>
+    </fields>
+    <fields>
+        <label><!-- 戦略的に計画・実践する --></label>
+        <name>Field16__c</name>
+    </fields>
+    <fields>
+        <label><!-- 変革と革新をリードする --></label>
+        <name>Field17__c</name>
+    </fields>
+    <fields>
+        <label><!-- 本部 --></label>
+        <name>Field1__c</name>
+        <picklistValues>
+            <masterLabel>コーポレートリレーション本部</masterLabel>
+            <translation><!-- コーポレートリレーション本部 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>サプライチェーン本部</masterLabel>
+            <translation><!-- サプライチェーン本部 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ドナルド・マクドナルド・ハウス</masterLabel>
+            <translation><!-- ドナルド・マクドナルド・ハウス --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>マーケティング本部</masterLabel>
+            <translation><!-- マーケティング本部 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>人事本部</masterLabel>
+            <translation><!-- 人事本部 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>店舗開発本部</masterLabel>
+            <translation><!-- 店舗開発本部 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>東日本　営業推進部</masterLabel>
+            <translation><!-- 東日本　営業推進部 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>直営店舗</masterLabel>
+            <translation><!-- 直営店舗 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>財務本部</masterLabel>
+            <translation><!-- 財務本部 --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- ターゲットレベル --></label>
+        <name>Field25__c</name>
+        <picklistValues>
+            <masterLabel>アドバンス</masterLabel>
+            <translation><!-- アドバンス --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>エキスパート</masterLabel>
+            <translation><!-- エキスパート --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>スキルあり</masterLabel>
+            <translation><!-- スキルあり --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>戦略的リーダー</masterLabel>
+            <translation><!-- 戦略的リーダー --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- ターゲットレベル --></label>
+        <name>Field26__c</name>
+        <picklistValues>
+            <masterLabel>アドバンス</masterLabel>
+            <translation><!-- アドバンス --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>エキスパート</masterLabel>
+            <translation><!-- エキスパート --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>スキルあり</masterLabel>
+            <translation><!-- スキルあり --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>戦略的リーダー</masterLabel>
+            <translation><!-- 戦略的リーダー --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- ターゲットレベル --></label>
+        <name>Field27__c</name>
+        <picklistValues>
+            <masterLabel>アドバンス</masterLabel>
+            <translation><!-- アドバンス --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>エキスパート</masterLabel>
+            <translation><!-- エキスパート --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>スキルあり</masterLabel>
+            <translation><!-- スキルあり --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>戦略的リーダー</masterLabel>
+            <translation><!-- 戦略的リーダー --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- ターゲットレベル --></label>
+        <name>Field28__c</name>
+        <picklistValues>
+            <masterLabel>アドバンス</masterLabel>
+            <translation><!-- アドバンス --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>エキスパート</masterLabel>
+            <translation><!-- エキスパート --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>スキルあり</masterLabel>
+            <translation><!-- スキルあり --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>戦略的リーダー</masterLabel>
+            <translation><!-- 戦略的リーダー --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- ターゲットレベル --></label>
+        <name>Field29__c</name>
+        <picklistValues>
+            <masterLabel>アドバンス</masterLabel>
+            <translation><!-- アドバンス --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>エキスパート</masterLabel>
+            <translation><!-- エキスパート --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>スキルあり</masterLabel>
+            <translation><!-- スキルあり --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>戦略的リーダー</masterLabel>
+            <translation><!-- 戦略的リーダー --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- 部門 --></label>
+        <name>Field2__c</name>
+        <picklistValues>
+            <masterLabel>CSR部</masterLabel>
+            <translation><!-- CSR部 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ナショナルマーケティング部</masterLabel>
+            <translation><!-- ナショナルマーケティング部 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ピープルディベロップメント部</masterLabel>
+            <translation><!-- ピープルディベロップメント部 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>プロモーションサプライ部</masterLabel>
+            <translation><!-- プロモーションサプライ部 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>リージョナルコントローラー部</masterLabel>
+            <translation><!-- リージョナルコントローラー部 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>店舗開発部</masterLabel>
+            <translation><!-- 店舗開発部 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>直営店舗</masterLabel>
+            <translation><!-- 直営店舗 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>設計管理部</masterLabel>
+            <translation><!-- 設計管理部 --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- 粘り強くやりぬく --></label>
+        <name>Field30__c</name>
+    </fields>
+    <fields>
+        <label><!-- キーカスタマー（英語） --></label>
+        <name>Field31__c</name>
+    </fields>
+    <fields>
+        <label><!-- ポジションの目的（英語） --></label>
+        <name>Field32__c</name>
+    </fields>
+    <fields>
+        <label><!-- 主な職責（英語） --></label>
+        <name>Field33__c</name>
+    </fields>
+    <fields>
+        <label><!-- 最低限または望ましい要件（英語） --></label>
+        <name>Field34__c</name>
+    </fields>
+    <fields>
+        <label><!-- ポジションの目的（日本語） --></label>
+        <name>Field3__c</name>
+    </fields>
+    <fields>
+        <label><!-- キーカスタマー（日本語） --></label>
+        <name>Field4__c</name>
+    </fields>
+    <fields>
+        <label><!-- 主な職責（日本語） --></label>
+        <name>Field5__c</name>
+    </fields>
+    <fields>
+        <label><!-- 職責（その他） --></label>
+        <name>Field6__c</name>
+    </fields>
+    <fields>
+        <label><!-- 最低限または望ましい要件（日本語） --></label>
+        <name>Field7__c</name>
+    </fields>
+    <fields>
+        <label><!-- ターゲットレベル --></label>
+        <name>Field8__c</name>
+        <picklistValues>
+            <masterLabel>アドバンス</masterLabel>
+            <translation><!-- アドバンス --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>エキスパート</masterLabel>
+            <translation><!-- エキスパート --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>スキルあり</masterLabel>
+            <translation><!-- スキルあり --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>戦略的リーダー</masterLabel>
+            <translation><!-- 戦略的リーダー --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- 職位 --></label>
+        <name>JobRank__c</name>
+        <picklistValues>
+            <masterLabel>チーフ</masterLabel>
+            <translation><!-- チーフ --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ディレクター</masterLabel>
+            <translation><!-- ディレクター --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>マネージャー</masterLabel>
+            <translation><!-- マネージャー --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>本部長</masterLabel>
+            <translation><!-- 本部長 --></translation>
+        </picklistValues>
+    </fields>
+    <webLinks>
+        <label><!-- JobProfileCopy --></label>
+        <name>JobProfileCopy</name>
+    </webLinks>
+</CustomObjectTranslation>

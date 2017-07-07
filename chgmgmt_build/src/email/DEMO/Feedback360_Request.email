@@ -1,0 +1,30 @@
+<div style="font-family:sans-serif;color: #706F70 !important;background-color:#fff;">
+
+<div style="text-align:center">
+<img src="https://c.ap2.content.force.com/servlet/servlet.ImageServer?id=01528000001sWc1&oid=00D28000001dYKk&lastMod=1465804765000" width="100px"/>
+</div>
+<div style="border-bottom: 1px solid #ddd;">
+
+</div>
+<div style="text-align:center;font-size:32px;">
+Request for 360 Feedback
+</div>
+<div style="text-align:left;font-size:17px;margin-top:20px;">
+Dear {!feedback360__c.Name__c},
+</div>
+<div style="text-align:left;font-size:15px;">
+<p>
+You have been selected by {!feedback360__c.EmployeeName__c} to participate in the Mcdonalds 360° Survey. The purpose of this survey is to provide feedback to managers or would-be managers who want to enhance their self-insight.
+</p>
+<p>
+Your feedback will help enable Takanori’s professional growth and development. Please be sure to answer all questions as honestly and as accurately as you can – your feedback will remain confidential. Other than for managers rating their direct reports, all feedback is aggregated in the feedback report. Your individual ratings and comments cannot be linked back to you.
+</p>
+<p>
+Please follow this link:<br/>
+<a href="https://sdo-demo-main-14efbacbf9c-15-154134ec0bc.secure.force.com/360feedback/DEM_InputFeedback?id={!feedback360__c.Id}">Input Feedback</a>
+</p> 
+<p>
+The survey will close on next Friday. Please complete the survey before this date.
+</p>
+</div>
+</div>

@@ -1,0 +1,73 @@
+<apex:page controller="AccountListController" action="{!init}" sidebar="false" Id="AccountSearch">
+    <style type="text/css">
+            #conditionTable { width: 50%; border: 0; margin-left: 5%; }
+            #conditionTable .label { text-align: right; }
+            #conditionTable .dateFormat { display: none; }
+    </style>
+    <script type ="text/javascript">
+        beenFocused = true;
+    </script>
+    <apex:form id="form1">
+        <apex:pageBlock title="顧客一覧">
+            <apex:pageMessages id="messagearea" showDetail="false"/>
+            <apex:pageBlockSection id="conditionSection" title="検索" columns="1">
+                <apex:outputpanel id="searchcondition">
+                    <table id="conditionTable">
+                        <tr>
+                            <td class="label"><apex:outputLabel value="顧客名"  styleClass="labelCol" /></td>
+                            <td><apex:inputField id="Name" value="{!condition.obj.Name}" /></td>
+                        </tr>
+                        <tr>
+                            <td class="label"><apex:outputLabel value="郵便番号"  styleClass="labelCol" /></td>
+                            <td>
+                                <apex:inputField id="ZipCode" value="{!condition.obj.BillingPostalCode}" />
+                            </td>
+                        </tr>
+                         <tr>
+                            <td class="label"><apex:outputLabel value="州"  styleClass="labelCol" /></td>
+                            <td>
+                                <apex:inputField id="State" value="{!condition.obj.BillingState}" />
+                            </td>
+                        </tr>                       
+                        
+                    </table>
+                
+                </apex:outputpanel>
+            
+            </apex:pageBlockSection>
+        
+            <apex:pageBlockButtons id="buttonSection" location="bottom">
+                <apex:commandButton value="検索" action="{!search}" style="font-size:12pt;width:100px;height:30px;" reRender="searchresult,messagearea"/>
+                <apex:commandButton value="クリア" action="{!clear}" style="font-size:12pt;width:100px;height:30px;" reRender="searchcondition,searchresult,messagearea"/>
+        </apex:pageBlockButtons>
+        </apex:pageBlock>
+    </apex:form>
+    <apex:outputpanel id="searchresult">
+        <apex:pageBlock title="検索結果 :" rendered="{!(results.size==0)}">
+            検索結果に該当するデータがありません
+        </apex:pageBlock>
+        
+        <apex:form id="resultForm">
+            <apex:pageBlock id="resultBlock" title="顧客一覧" rendered="{!(results.size > 0)}">
+                <apex:outputtext style="width:110px" value="結果 :  {!results.size}件" />
+                <apex:pageblockTable id="resultTable" value="{!results}" var="o" frame="box">
+                    <apex:column style="width:80px">
+                        <apex:facet name="header">
+                            <apex:commandLink action="{!sort}" value="顧客名{!IF(sortkey == 'Name', sortorder,' ')}">
+                                <apex:param value="Name" name="String" assignTo="{!sortingFielld}" />
+                            </apex:commandLink>
+                        </apex:facet>
+                        <apex:outputLink value="/{!o.Id}"><apex:outputField style="width:80px" value="{!o.Name}"/></apex:outputLink>
+                    
+                    </apex:column>
+                </apex:pageBlockTable>
+            </apex:pageBlock>   
+                
+                
+
+        
+        </apex:form>
+    
+    
+    </apex:outputpanel>
+</apex:page>

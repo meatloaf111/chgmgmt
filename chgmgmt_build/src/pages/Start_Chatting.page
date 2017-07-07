@@ -1,0 +1,16 @@
+<apex:page >
+  <h1>Let’s start chatting...</h1>
+  <br />
+  Click the big button to start a chat.
+  <br />
+<img id="liveagent_button_online_5732800000005lt" style="display: none; border: 0px none; cursor: pointer" onclick="liveagent.startChat('5732800000005lt')" src="https://adcompany-developer-edition.ap2.force.com/resource/1475289393000/OnlineButton" /><img id="liveagent_button_offline_5732800000005lt" style="display: none; border: 0px none; " src="https://adcompany-developer-edition.ap2.force.com/resource/1475289421000/OfflineButton" />
+<script type="text/javascript">
+if (!window._laq) { window._laq = []; }
+window._laq.push(function(){liveagent.showWhenOnline('5732800000005lt', document.getElementById('liveagent_button_online_5732800000005lt'));
+liveagent.showWhenOffline('5732800000005lt', document.getElementById('liveagent_button_offline_5732800000005lt'));
+});</script>
+ <script type='text/javascript' src='https://c.la10.salesforceliveagent.com/content/g/js/37.0/deployment.js'></script>
+<script type='text/javascript'>
+liveagent.init('https://d.la10.salesforceliveagent.com/chat', '5722800000005IS', '00D28000001f0q0');
+</script>
+</apex:page>

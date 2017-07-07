@@ -1,0 +1,246 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>アセスメント</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>アセスメント</value>
+    </caseValues>
+    <fields>
+        <label><!-- 回答1 --></label>
+        <name>Answer1__c</name>
+        <picklistValues>
+            <masterLabel>1</masterLabel>
+            <translation><!-- 1 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>2</masterLabel>
+            <translation><!-- 2 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>3</masterLabel>
+            <translation><!-- 3 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>4</masterLabel>
+            <translation><!-- 4 --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- ビジネスマナー --></label>
+        <name>BusinessManner__c</name>
+        <picklistValues>
+            <masterLabel>1</masterLabel>
+            <translation><!-- 1 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>2</masterLabel>
+            <translation><!-- 2 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>3</masterLabel>
+            <translation><!-- 3 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>4</masterLabel>
+            <translation><!-- 4 --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- コミュニケーション --></label>
+        <name>Communication__c</name>
+        <picklistValues>
+            <masterLabel>1</masterLabel>
+            <translation><!-- 1 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>2</masterLabel>
+            <translation><!-- 2 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>3</masterLabel>
+            <translation><!-- 3 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>4</masterLabel>
+            <translation><!-- 4 --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- 評価日 --></label>
+        <name>EvaluationDate__c</name>
+    </fields>
+    <fields>
+        <label><!-- 評価イベント --></label>
+        <name>EvaluationEvent__c</name>
+        <relationshipLabel><!-- アセスメント --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- 総合評価 --></label>
+        <name>Evaluation__c</name>
+        <picklistValues>
+            <masterLabel>A</masterLabel>
+            <translation><!-- A --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>B</masterLabel>
+            <translation><!-- B --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>C</masterLabel>
+            <translation><!-- C --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>D</masterLabel>
+            <translation><!-- D --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- ステータス --></label>
+        <name>Field1__c</name>
+        <picklistValues>
+            <masterLabel>保留</masterLabel>
+            <translation><!-- 保留 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>完了</masterLabel>
+            <translation><!-- 完了 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>未完了</masterLabel>
+            <translation><!-- 未完了 --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- 不正行為など --></label>
+        <name>Field2__c</name>
+        <picklistValues>
+            <masterLabel>問題あり</masterLabel>
+            <translation><!-- 問題あり --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>問題なし</masterLabel>
+            <translation><!-- 問題なし --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- 不当要求・脅迫 --></label>
+        <name>Field3__c</name>
+        <picklistValues>
+            <masterLabel>問題あり</masterLabel>
+            <translation><!-- 問題あり --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>問題なし</masterLabel>
+            <translation><!-- 問題なし --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- 期限内提出 --></label>
+        <name>Field4__c</name>
+        <picklistValues>
+            <masterLabel>問題あり</masterLabel>
+            <translation><!-- 問題あり --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>問題なし</masterLabel>
+            <translation><!-- 問題なし --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help><!-- 評価の補足説明を入力してください --></help>
+        <label><!-- コメント --></label>
+        <name>Field5__c</name>
+    </fields>
+    <fields>
+        <label><!-- コメント＿テキストエリア --></label>
+        <name>Field6__c</name>
+    </fields>
+    <fields>
+        <label><!-- 勤怠 --></label>
+        <name>Kintai__c</name>
+        <picklistValues>
+            <masterLabel>1</masterLabel>
+            <translation><!-- 1 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>2</masterLabel>
+            <translation><!-- 2 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>3</masterLabel>
+            <translation><!-- 3 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>4</masterLabel>
+            <translation><!-- 4 --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- 設問内容1 --></label>
+        <name>Q1__c</name>
+    </fields>
+    <fields>
+        <label><!-- 設問内容2 --></label>
+        <name>Q2__c</name>
+    </fields>
+    <fields>
+        <label><!-- 責任・効率 --></label>
+        <name>ResEff__c</name>
+        <picklistValues>
+            <masterLabel>1</masterLabel>
+            <translation><!-- 1 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>2</masterLabel>
+            <translation><!-- 2 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>3</masterLabel>
+            <translation><!-- 3 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>4</masterLabel>
+            <translation><!-- 4 --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- スタッフ --></label>
+        <name>Staff__c</name>
+        <relationshipLabel><!-- アセスメント --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- 回答2 --></label>
+        <name>X2__c</name>
+        <picklistValues>
+            <masterLabel>1</masterLabel>
+            <translation><!-- 1 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>2</masterLabel>
+            <translation><!-- 2 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>3</masterLabel>
+            <translation><!-- 3 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>4</masterLabel>
+            <translation><!-- 4 --></translation>
+        </picklistValues>
+    </fields>
+    <layouts>
+        <layout>アセスメントレイアウト</layout>
+        <sections>
+            <label><!-- アセスメント --></label>
+            <section>アセスメント</section>
+        </sections>
+        <sections>
+            <label><!-- カスタムリンク --></label>
+            <section>カスタムリンク</section>
+        </sections>
+    </layouts>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>
